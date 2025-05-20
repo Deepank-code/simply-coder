@@ -1,6 +1,35 @@
-"use client";
 import Image from "next/image";
 import TestimonialSlider from "./_component/TestimonialSlider";
+import Link from "next/link";
+
+export const metadata = {
+  title: "Free AI Tools for Social Media | Simply Coder",
+  description:
+    "Boost your online presence with Simply Coder's free AI tools. Generate LinkedIn posts, WhatsApp statuses, YouTube descriptions, and Instagram bios in seconds.",
+  keywords: [
+    "AI content generator",
+    "LinkedIn post generator",
+    "WhatsApp status ideas",
+    "Instagram bio generator",
+    "YouTube title generator",
+    "free social media tools",
+    "Simply Coder",
+  ],
+  openGraph: {
+    title: "Free AI Social Media Tools | Simply Coder",
+    description:
+      "Generate high-quality social media content using our free AI tools. LinkedIn, WhatsApp, YouTube, Instagram—covered in one place.",
+    url: "https://yourdomain.com/",
+    siteName: "Simply Coder",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free AI Social Media Tools | Simply Coder",
+    description:
+      "Create content instantly with our LinkedIn, WhatsApp, YouTube & Instagram generators. 100% free!",
+  },
+};
 
 export default function Home() {
   return (
@@ -10,14 +39,17 @@ export default function Home() {
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold bg-gradient-to-t from-[#a077ff] to-[#ff3ec8] bg-clip-text text-transparent leading-tight">
             Smart Tools That Save Your Time & Boost Your Creativity
           </h1>
-          <button className="group relative inline-flex items-center px-8 py-4 pr-10 bg-white rounded-full font-semibold transition-all duration-300 hover:pr-12 mt-8 border-2 border-gray-300 text-lg">
+          <Link
+            href={"/tools"}
+            className="group relative inline-flex items-center px-8 py-4 pr-10 bg-white rounded-full font-semibold transition-all duration-300 hover:pr-12 mt-8 border-2 border-gray-300 text-lg"
+          >
             <span className="mr-2 bg-gradient-to-r from-[#4D8FFB] to-[#CA33FF] bg-clip-text text-transparent">
               Get Started
             </span>
             <span className="absolute right-4 opacity-0 transform translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 text-[#CA33FF] text-2xl">
               →
             </span>
-          </button>
+          </Link>
         </div>
 
         {/* Bubble Images */}
@@ -65,9 +97,9 @@ export default function Home() {
         />
       </section>
 
-      <main className="w-5/6 m-auto flex-col md:flex md:flex-row   items-center py-16">
+      <main className="w-full sm:w-5/6 m-auto flex-col md:flex md:flex-row   items-center py-16">
         <div className="w-[80%] text-center md:w-[60%] m-auto md:text-start ">
-          <h1 className=" text-5xl mt-12 font-bold text-[#323743FF]">
+          <h1 className="text-3xl sm:text-5xl mt-12 font-bold text-[#323743FF]">
             About Simply Coder
           </h1>
           <Image
@@ -77,7 +109,7 @@ export default function Home() {
             height={24}
             alt="about"
           />
-          <p className=" m-auto w-[90%] sm:w-[80%] text-[20px] leading-[30px] font-normal text-[#323743]">
+          <p className=" m-auto md:ms-0 w-[100%] sm:w-[80%] text-[20px] leading-[30px] font-normal text-[#323743]">
             Simply Coder is a smart, AI-enabled platform that offers a growing
             suite of daily-use tools designed to save your time and boost your
             creativity. Whether you &apos; re a student, content creator, or
@@ -86,16 +118,19 @@ export default function Home() {
             Built with simplicity and speed in mind, Simply Coder is your go-to
             digital toolkit — always accessible, always free.
           </p>
-          <button className="group relative inline-flex items-center px-8 py-4 pr-10 bg-white rounded-full font-semibold transition-all duration-300 hover:pr-12 mt-8 border-2 border-gray-300 text-lg">
+          <Link
+            href={"/about"}
+            className="group relative inline-flex items-center px-8 py-4 pr-10 bg-white rounded-full font-semibold transition-all duration-300 hover:pr-12 mt-8 border-2 border-gray-300 text-lg"
+          >
             <span className="mr-2 bg-gradient-to-r from-[#4D8FFB] to-[#CA33FF] bg-clip-text text-transparent">
               Learn more..
               <span className="absolute right-4 opacity-0 transform translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 text-[#CA33FF] text-2xl">
                 →
               </span>
             </span>
-          </button>
+          </Link>
         </div>
-        <div className="relative w-full max-w-md mx-auto aspect-[3/4] sm:aspect-[4/5]">
+        <div className="relative  w-full max-w-md mx-auto aspect-[3/4] sm:aspect-[4/5]">
           {/* SVG Blob Background */}
           <svg
             className="absolute inset-0 w-full h-full"
@@ -115,22 +150,23 @@ export default function Home() {
             src="/girl.png"
             alt="Girl Illustration"
             fill
-            className="object-contain z-10 p-6"
+            className="object-contain ps-7 pt-  z-10 p-8"
             priority
           />
 
           {/* White Box */}
-          <div className="absolute top-[25%] left-[-10%] w-[220px] h-[auto] bg-white z-20 rounded-2xl shadow-xl p-3">
+          <div className="absolute pt-7 w-[150px] top-[5%] left-[2%] sm:top-[25%] sm:left-[-20%] sm:w-[200px] h-[auto] bg-white z-20 rounded-2xl shadow-xl p-2">
             <h3 className="text-lg font-bold text-[#CA33FF]">Features</h3>
             <ul className="text-sm text-gray-700 space-y-2 list-none pl-0">
-              <li className="bg-pink-200 rounded-2xl px-4 py-2 font-bold text-pink-700">
+              <li className="bg-pink-200 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
                 ⚡ Instant Captions & Statuses
               </li>
-              <li className="bg-pink-200 rounded-2xl px-4 py-2 font-bold text-pink-700">
+              <li className="bg-pink-200 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
                 🎨 AI-Powered Creativity Tools
               </li>
-              <li className="bg-pink-200 rounded-2xl px-4 py-2 font-bold text-pink-700">
-                🆓 100% Free & Effortless
+              <li className="bg-pink-200 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
+                🆓 100% Free & <br />
+                Effortless
               </li>
             </ul>
           </div>

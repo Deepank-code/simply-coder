@@ -188,8 +188,16 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FaInstagram, FaLinkedin, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import {
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaWhatsapp,
+  FaYoutube,
+} from "react-icons/fa";
 import { Contact } from "lucide-react";
+import ProfileCard from "../_component/ProfileCard";
 
 const AboutUsPage = () => {
   const primaryTextColor = "#2c2c2c";
@@ -253,7 +261,8 @@ const AboutUsPage = () => {
               >
                 Welcome to Simply Coder, the smart platform that harnesses the
                 power of AI to streamline your social media content creation.
-                We're dedicated to helping you effortlessly generate compelling{" "}
+                We&apos;re dedicated to helping you effortlessly generate
+                compelling{" "}
                 <span className={`font-semibold ${secondaryAccentColor}`}>
                   YouTube titles and descriptions, engaging WhatsApp statuses,
                   captivating Instagram captions, and impactful LinkedIn posts
@@ -291,9 +300,9 @@ const AboutUsPage = () => {
             <p
               className={`text-lg ${primaryTextColor} leading-relaxed mb-4 text-[#403838]`}
             >
-              In today's fast-paced digital world, creating engaging content
-              across multiple platforms can be time-consuming and challenging.
-              Our mission at Simply Coder is to{" "}
+              In today&apos;s fast-paced digital world, creating engaging
+              content across multiple platforms can be time-consuming and
+              challenging. Our mission at Simply Coder is to{" "}
               <span className={`font-semibold ${secondaryAccentColor}`}>
                 empower you with intelligent AI tools
               </span>{" "}
@@ -355,7 +364,7 @@ const AboutUsPage = () => {
             <h2
               className={`text-3xl font-extrabold ${primaryAccentColor} mb-8 text-center`}
             >
-              Unlock the Power of Simply Coder's AI
+              Unlock the Power of Simply Coder&apos;s AI
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
               <motion.div
@@ -381,7 +390,7 @@ const AboutUsPage = () => {
                 </h3>
                 <p className={`text-gray-700 leading-relaxed text-sm`}>
                   Generate compelling titles and SEO-friendly descriptions that
-                  boost your video's visibility.
+                  boost your video&apos;s visibility.
                 </p>
               </motion.div>
               <motion.div
@@ -477,14 +486,9 @@ const AboutUsPage = () => {
               Simply Coder today and start generating engaging content
               effortlessly!
             </p>
-            <Link
-              href="/signup"
-              className={`inline-block bg-${secondaryAccentColor} hover:bg-${secondaryAccentColor}-700 text-${buttonTextColor} font-semibold py-4 px-8 rounded-md shadow-lg transition duration-300`}
-            >
-              Sign Up for Free
-            </Link>
           </section>
         </div>
+        <ProfileCard />
       </main>
     </>
   );

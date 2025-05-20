@@ -26,3 +26,6 @@
 .fade-in {
   animation: fadeIn 0.8s ease-out forwards;
 }
+[id] {
+  scroll-margin-top: 120px; /* height of fixed navbar */
+}

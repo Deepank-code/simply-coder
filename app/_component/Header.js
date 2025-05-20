@@ -7,7 +7,7 @@ import { FaSun, FaMoon, FaHamburger, FaCross } from "react-icons/fa";
 import { GiCrossMark } from "react-icons/gi";
 const fuzzy = Fuzzy_Bubbles({
   subsets: ["latin"],
-  weight: ["400"], // or '700' if you want bold
+  weight: ["400"],
 });
 
 const Header = () => {
@@ -19,20 +19,21 @@ const Header = () => {
   };
   return (
     <nav className=" w-full z-[999] flex items-center justify-between  h-20 fixed top-4  bg-white/40 rounded-2xl sm:rounded-full shadow-lg backdrop-blur-md border border-white/30 px-7 sm:w-11/12  sm:mx-auto sm:right-0 sm:left-0">
-      <h1
+      <Link
+        href={"/"}
         className={`${fuzzy.className} text-xl font-bold bg-gradient-to-r from-[#4D8FFB] to-[#CA33FF] bg-clip-text text-transparent md:text-3xl sm:text-[22px]`}
       >
         <b> &lt;Simply Coder/&gt;</b>
-      </h1>
+      </Link>
       <ul
-        className={`md:flex space-y-4 py-6  rounded md:space-x-4  sm:space-x-5 sm:static  absolute top-24 right-2 w-1/3 bg-white sm:w-auto sm:bg-transparent px-4 sm:px-0 sm:space-y-0 transition-all duration-300 ease-in-out ${
+        className={`md:flex text-center sm:align-sub space-y-2 py-5  rounded md:space-x-4  sm:space-x-5 md:static  absolute top-22 right-2 w-1/3 bg-white sm:w-auto md:bg-transparent px-1 sm:px-1 md:space-y-0 transition-all duration-300 ease-in-out ${
           isMenuOpen ? "block" : "hidden"
         }`}
       >
         <li>
           <Link
             href="/"
-            className={`px-2 py-1 sm:px-4 sm:py-2 rounded-full ${
+            className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/"
                 ? "bg-[#e397ff] font-semibold text-white"
                 : "text-gray-500"
@@ -44,7 +45,7 @@ const Header = () => {
         <li>
           <Link
             href={"/tools"}
-            className={`px-4 py-2 rounded-full ${
+            className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/tools"
                 ? "bg-[#dd80ff] font-semibold text-white"
                 : "text-gray-500"
@@ -56,7 +57,7 @@ const Header = () => {
         <li>
           <Link
             href={"/privacy-policy"}
-            className={`px-4 py-2 rounded-full ${
+            className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/privacy-policy"
                 ? "bg-[#dd80ff] font-semibold text-white"
                 : "text-gray-500"
@@ -68,7 +69,7 @@ const Header = () => {
         <li>
           <Link
             href={"/about"}
-            className={`px-4 py-2 rounded-full ${
+            className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/about"
                 ? "bg-[#dd80ff] font-semibold text-white"
                 : "text-gray-500"
@@ -80,7 +81,7 @@ const Header = () => {
         <li>
           <Link
             href={"/contact"}
-            className={`px-4 py-2 rounded-full ${
+            className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/contact"
                 ? "bg-[#dd80ff] font-semibold text-white"
                 : "text-gray-500"

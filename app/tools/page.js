@@ -97,7 +97,7 @@ function ToolCard({ icon, title, color, desc, features, route }) {
 
       {/* Button */}
       <button
-        className="group relative inline-flex items-center px-4 py-1  bg-white rounded-full font-semibold transition-all duration-300 hover:translate-y-1.5  mt-8 border-2 border-gray-300 text-lg"
+        className="group relative inline-flex items-center px-4 py-1  bg-white rounded-full font-semibold transition-all duration-300 hover:translate-x-2  mt-8 border-2 border-gray-300 text-lg"
         onClick={() => router.push(route)}
       >
         <span className="mr-2 bg-gradient-to-r from-[#4D8FFB] to-[#CA33FF] bg-clip-text text-transparent">
