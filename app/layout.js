@@ -13,6 +13,9 @@ export const metadata = {
   },
   description:
     "Simply Coder offers free AI tools to generate WhatsApp statuses, LinkedIn posts & more. Fast, simple, and made for creators.",
+  other: {
+    "google-adsense-account": "ca-pub-3386113365600048",
+  },
 };
 
 const fuzzy = Fuzzy_Bubbles({
