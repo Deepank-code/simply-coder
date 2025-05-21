@@ -87,7 +87,9 @@ const WhatsAppForm = () => {
             <li>Attitude</li>
           </ul>
           <button
-            onClick={() => router.push("/whatsapp/whatsapp-status-categories")}
+            onClick={() =>
+              router.push("/tools/whatsapp/whatsapp-status-categories")
+            }
             className="mt-6 bg-emerald-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-emerald-600 transition w-full text-sm"
           >
             📚 Browse Categories
@@ -203,7 +205,9 @@ const WhatsAppForm = () => {
             <li>• Attitude</li>
           </ul>
           <button
-            onClick={() => router.push("/status-categories")}
+            onClick={() =>
+              router.push("/tools/whatsapp/whatsapp-status-categories")
+            }
             className="mt-6 bg-emerald-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-emerald-600 transition w-full text-sm"
           >
             📚 Browse Categories

@@ -95,7 +95,7 @@ const InstaForm = () => {
           </ul>
           <button
             onClick={() =>
-              router.push("/instagram/instagram-caption-categories")
+              router.push("/tools/instagram/instagram-caption-categories")
             }
             className="mt-6 bg-rose-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-rose-600 transition w-full text-sm"
           >
@@ -268,7 +268,7 @@ const InstaForm = () => {
           </ul>
           <button
             onClick={() =>
-              router.push("/instagram/instagram-caption-categories")
+              router.push("/tools/instagram/instagram-caption-categories")
             }
             className="mt-6 bg-rose-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-rose-600 transition w-full text-sm"
           >

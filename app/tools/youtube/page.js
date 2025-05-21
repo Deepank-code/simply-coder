@@ -1,4 +1,4 @@
-import YoutubeForm from "../_component/YoutubeForm";
+import YoutubeForm from "@/app/_component/YoutubeForm";
 
 export const metadata = {
   title: "YouTube Video Idea & Title Generator | Simply Coder",

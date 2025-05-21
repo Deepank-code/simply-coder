@@ -19,7 +19,27 @@ const InstaCategoriesCard = ({ categories }) => {
 
   let idx = 0;
   return (
-    <>
+    <div className="w-full sm:max-w-5xl mx-auto mt-10 px-4 sm:px-6">
+      <h1 className="text-4xl font-bold text-center text-rose-600 mb-12">
+        🎀 Instagram Captions by Theme
+      </h1>
+      <nav className="mb-8 flex flex-wrap justify-center gap-4">
+        {categories.map((cat) => {
+          const id = cat.title
+            .toLowerCase()
+            .replace(/\s+/g, "-")
+            .replace(/[^\w-]/g, "");
+          return (
+            <a
+              key={id}
+              href={`#${id}`}
+              className="text-rose-600 hover:underline cursor-pointer font-medium"
+            >
+              {cat.title}
+            </a>
+          );
+        })}
+      </nav>
       {categories.map((cat, cIndex) => {
         const id = cat.title
           .toLowerCase()
@@ -43,11 +63,11 @@ const InstaCategoriesCard = ({ categories }) => {
                     return (
                       <li
                         key={localIndex}
-                        className="bg-white/70 backdrop-blur-md p-5 rounded-xl shadow flex justify-between items-start gap-4"
+                        className="w-full bg-white/70 backdrop-blur-md p-5 rounded-xl shadow flex flex-col sm:flex-row justify-between items-start gap-4"
                       >
                         <div className="flex flex-col">
                           <p className="text-gray-800 mb-3">{text}</p>
-                          <p className="text-sm text-rose-500">
+                          <p className="text-sm text-rose-500 flex flex-wrap gap-x-3">
                             {hashtags.map((tag, i) => (
                               <span key={i} className="mr-3">
                                 {tag}
@@ -55,7 +75,6 @@ const InstaCategoriesCard = ({ categories }) => {
                             ))}
                           </p>
                         </div>
-
                         <button
                           onClick={() =>
                             copyToClipboard(text, hashtags, localIndex)
@@ -80,7 +99,7 @@ const InstaCategoriesCard = ({ categories }) => {
           </div>
         );
       })}
-    </>
+    </div>
   );
 };
 

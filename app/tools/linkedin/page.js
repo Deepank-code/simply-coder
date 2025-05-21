@@ -1,4 +1,4 @@
-import LinkedinForm from "../_component/LinkedinForm";
+import LinkedinForm from "@/app/_component/LinkedinForm";
 
 export const metadata = {
   title: "LinkedIn Post Generator | Simply Coder",

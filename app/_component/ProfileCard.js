@@ -1,28 +1,42 @@
+"use client";
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-export default function ProfileCardTailwind() {
-  const gradient =
-    "bg-gradient-to-br from-[#a077ff] via-[#ff3ec8] to-[#ffc107]";
+export default function ProfileCard() {
+  const gradient = "from-[#a077ff] via-[#ff3ec8] to-[#ffc107]";
 
   return (
-    <div className="max-w-md mx-auto rounded-2xl p-6 relative bg-white overflow-hidden">
-      {/* Gradient Border */}
+    <div
+      className="relative  w-11/12 mx-auto
+     sm:w-full max-w-md sm:mx-auto group transition-transform duration-300 hover:scale-[1.015]"
+    >
+      {/* Animated Gradient Border */}
       <div
-        className={`absolute inset-0 rounded-2xl z-[-1] p-[2px] ${gradient} mask-border`}
-      />
+        className={`absolute inset-0 rounded-2xl p-[2px] bg-gradient-to-br ${gradient} z-0`}
+      >
+        <div className="w-full h-full rounded-[inherit] bg-white" />
+      </div>
 
-      {/* Gradient Shadow Glow */}
+      {/* Animated Gradient Glow */}
       <div
-        className={`absolute inset-0 rounded-2xl z-[-2] blur-xl opacity-50 ${gradient}`}
+        className={`
+          absolute inset-0 rounded-2xl 
+          bg-[linear-gradient(130deg,#a077ff,#ff3ec8,#ffc107,#a077ff)]
+          bg-[length:200%_200%] animate-glow
+          blur-2xl opacity-40 z-[-1]
+          transition-opacity duration-300
+          group-hover:opacity-70
+        `}
       />
 
       {/* Card Content */}
-      <div className="flex items-center space-x-5">
+      <div className="relative z-10 p-6 rounded-2xl bg-white flex items-center space-x-5">
         {/* Profile Image */}
         <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-md">
-          <img
-            src="/your-profile.jpg" // Replace with your image
+          <Image
+            width={100}
+            height={100}
+            src="/your-profile.jpg"
             alt="Deepank Joshi"
             className="w-full h-full object-cover"
           />

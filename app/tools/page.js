@@ -21,7 +21,7 @@ export default function ToolsSection() {
           title="WhatsApp Status"
           color="from-green-400 to-emerald-500"
           desc="Generate clever and viral statuses in seconds. Choose from moods like romantic, funny, sad, or motivational — updated daily."
-          route="/whatsapp"
+          route="/tools/whatsapp"
           features={[
             "One-click copy",
             "Trending styles",
@@ -33,7 +33,7 @@ export default function ToolsSection() {
           title="Instagram Captions"
           color="from-pink-500 to-fuchsia-600"
           desc="Level up your captions with AI-powered flair. Get witty, poetic, aesthetic, or bold captions that match your mood or image."
-          route="/instagram"
+          route="/tools/instagram"
           features={["Hashtag suggestions", "Emoji matching", "Tone presets"]}
         />
         <ToolCard
@@ -42,14 +42,14 @@ export default function ToolsSection() {
           color="from-sky-500 to-blue-600"
           desc="Craft professional, polished headlines & bios. Stand out with clarity and confidence — perfect for job seekers and entrepreneurs."
           features={["Professional tone", "CTA prompts", "Buzzword optimizer"]}
-          route="/linkedin"
+          route="/tools/linkedin"
         />
         <ToolCard
           icon={<FaYoutube size={30} />}
           title="YouTube Ideas"
           color="from-red-500 to-rose-600"
           desc="Get fresh titles, hooks, and descriptions for videos. Whether it's tutorials, vlogs, or shorts — let AI supercharge your script."
-          route="/youtube"
+          route="/tools/youtube"
           features={[
             "Hook generator",
             "SEO-optimized titles",

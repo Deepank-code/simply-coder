@@ -1,4 +1,4 @@
-import WhatsAppForm from "../_component/WhatsAppForm";
+import WhatsAppForm from "@/app/_component/WhatsAppForm";
 
 export const metadata = {
   title: "AI WhatsApp Status Generator | Create Unique Status Instantly",

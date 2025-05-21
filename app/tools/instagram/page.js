@@ -1,4 +1,5 @@
-import InstaForm from "../_component/InstaForm";
+import InstaForm from "@/app/_component/InstaForm";
+
 export const metadata = {
   title:
     "AI Instagram Bio & Caption Generator | Create Unique IG Content Instantly",
