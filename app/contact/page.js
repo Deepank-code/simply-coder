@@ -23,13 +23,6 @@ const page = () => {
               </span>
               Support@simplycoder.com
             </li>
-            <li className="flex items-center gap-2">
-              <span>
-                {" "}
-                <FaPhone style={{ color: "#dd80ff" }} />{" "}
-              </span>{" "}
-              9999999
-            </li>
           </ul>
         </div>
         <Image

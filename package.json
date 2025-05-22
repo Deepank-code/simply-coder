@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^1.9.0",
     "framer-motion": "^12.10.5",
+    "googleapis": "^149.0.0",
     "lucide-react": "^0.509.0",
     "next": "15.3.2",
     "openai": "^4.98.0",

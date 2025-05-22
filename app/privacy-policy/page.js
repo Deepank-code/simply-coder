@@ -23,6 +23,20 @@ export default function PrivacyPolicy() {
           names, email addresses, or phone numbers.
         </p>
 
+        <h2 className="text-2xl font-semibold mb-4">AI & User Data</h2>
+        <p className="mb-6">
+          Simply Coder provides AI-powered tools for generating social media
+          captions, bios, and similar content. When you use these tools, the
+          text you input may be temporarily sent to third-party AI services
+          (such as OpenRouter or OpenAI) to generate a response. We do not store
+          or share this input or output permanently.
+        </p>
+        <p className="mb-6">
+          Please avoid submitting any personal, sensitive, or confidential
+          information into the AI tools. We do not claim ownership of your input
+          or output, and we do not use it for training AI models.
+        </p>
+
         <h2 className="text-2xl font-semibold mb-4">
           Ads and Third-Party Services
         </h2>
@@ -45,7 +59,7 @@ export default function PrivacyPolicy() {
         <p className="mb-6">
           While we do not collect personal data, we strive to maintain the
           security of our website and protect any information that may be
-          collected by third parties (e.g., Google).
+          collected by third parties (e.g., Google or AI API providers).
         </p>
 
         <h2 className="text-2xl font-semibold mb-4">Third-Party Links</h2>
