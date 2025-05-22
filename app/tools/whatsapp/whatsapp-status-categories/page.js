@@ -2,31 +2,22 @@ import WhatsAppCategoriesCard from "@/app/_component/WhatsAppCategoriesCard";
 import { whatsAppCategories } from "@/app/_lib/db";
 
 export const metadata = {
-  title:
-    "Best WhatsApp Status Collection | Funny, Birthday, Love, Attitude & More",
+  title: "Top Quotes & Statuses: Motivational, Love, Funny, Birthday & More",
   description:
-    "Browse our huge collection of WhatsApp statuses by category. Funny, birthday wishes, love, sad, motivational, and more — ready to copy and use instantly!",
-  keywords: [
-    "WhatsApp status categories",
-    "funny WhatsApp status",
-    "birthday WhatsApp wishes",
-    "attitude status for WhatsApp",
-    "motivational status",
-    "prebuilt WhatsApp statuses",
-  ],
+    "Explore a vast collection of quotes and statuses across categories like motivation, love, humor, birthday wishes, and more. Perfect for sharing on WhatsApp, Instagram, or any platform!",
   openGraph: {
-    title: "WhatsApp Status Collection by Category | Simply Coder",
+    title: "Top Quotes & Statuses: Motivational, Love, Funny, Birthday & More",
     description:
-      "Get the best WhatsApp status messages organized by category — funny, love, sad, birthday & more. Just copy & share!",
+      "Discover and share the best quotes and statuses across various categories. Ideal for WhatsApp, Instagram, and beyond.",
     url: "https://yourdomain.com/whatsapp-status-library",
     siteName: "Simply Coder",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Top WhatsApp Statuses by Category | Copy & Share",
+    title: "Top Quotes & Statuses: Motivational, Love, Funny, Birthday & More",
     description:
-      "Browse 1000+ prewritten WhatsApp statuses in multiple categories. Add spice to your status today!",
+      "Explore a diverse range of quotes and statuses to share on your favorite platforms.",
   },
 };
 
