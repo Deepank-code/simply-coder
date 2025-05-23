@@ -20,7 +20,7 @@ export const metadata = {
     title: "AI-Powered YouTube Content Generator | Simply Coder",
     description:
       "Struggling with content ideas? Instantly generate engaging YouTube topics, titles, and SEO descriptions with AI!",
-    url: "https://yourdomain.com/youtube",
+    url: `${process.env.NEXT_PUBLIC_BASE_URL}youtube`,
     siteName: "Simply Coder",
     type: "website",
     images: [

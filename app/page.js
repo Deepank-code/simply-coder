@@ -2,35 +2,6 @@ import Image from "next/image";
 import TestimonialSlider from "./_component/TestimonialSlider";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Free AI Tools for Social Media | Simply Coder",
-  description:
-    "Boost your online presence with Simply Coder's free AI tools. Generate LinkedIn posts, WhatsApp statuses, YouTube descriptions, and Instagram bios in seconds.",
-  keywords: [
-    "AI content generator",
-    "LinkedIn post generator",
-    "WhatsApp status ideas",
-    "Instagram bio generator",
-    "YouTube title generator",
-    "free social media tools",
-    "Simply Coder",
-  ],
-  openGraph: {
-    title: "Free AI Social Media Tools | Simply Coder",
-    description:
-      "Generate high-quality social media content using our free AI tools. LinkedIn, WhatsApp, YouTube, Instagram—covered in one place.",
-    url: "https://yourdomain.com/",
-    siteName: "Simply Coder",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Free AI Social Media Tools | Simply Coder",
-    description:
-      "Create content instantly with our LinkedIn, WhatsApp, YouTube & Instagram generators. 100% free!",
-  },
-};
-
 export default function Home() {
   return (
     <div>
