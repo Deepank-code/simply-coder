@@ -75,7 +75,7 @@ const AboutUsPage = () => {
                 , all in one place.
               </p>
               <Link
-                href="/features"
+                href="/tools"
                 className="bg-gradient-to-r from-pink-500 via-purple-500 to-yellow-400 text-white font-semibold py-3 px-6 rounded-md shadow-md transition duration-300 hover:scale-105"
               >
                 Discover Our AI Features

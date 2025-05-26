@@ -26,7 +26,7 @@ const Header = () => {
         <b> &lt;Simply Coder/&gt;</b>
       </Link>
       <ul
-        className={`md:flex text-center sm:align-sub space-y-2 py-5  rounded md:space-x-4  sm:space-x-5 md:static  absolute top-22 right-2 w-1/3 bg-white sm:w-auto md:bg-transparent px-1 sm:px-1 md:space-y-0 transition-all duration-300 ease-in-out ${
+        className={`md:flex text-center sm:items-center space-y-2 py-5  rounded md:space-x-4  sm:space-x-5 md:static  absolute top-22 right-2 w-2/5 bg-white sm:w-auto md:bg-transparent px-1 sm:px-1 md:space-y-0 transition-all duration-300 ease-in-out ${
           isMenuOpen ? "block" : "hidden"
         }`}
       >
