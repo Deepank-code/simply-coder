@@ -30,80 +30,86 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h4 className="font-bold text-lg text-gray-900 mb-3">Quick Links</h4>
-          <ul className="space-y-2 text-sm text-gray-700">
-            <li>
-              <Link
-                href="/"
-                className="hover:text-gray-900 hover:underline transition-colors duration-200"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/tools"
-                className="hover:text-gray-900 hover:underline transition-colors duration-200"
-              >
-                Tools
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about"
-                className="hover:text-gray-900 hover:underline transition-colors duration-200"
-              >
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className="hover:text-gray-900 hover:underline transition-colors duration-200"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
+          <nav aria-label="Quick Links">
+            <h3 className="font-bold text-lg text-gray-900 mb-3">
+              Quick Links
+            </h3>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li>
+                <Link
+                  href="/"
+                  className="hover:text-gray-900 hover:underline transition-colors duration-200"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/tools"
+                  className="hover:text-gray-900 hover:underline transition-colors duration-200"
+                >
+                  Tools
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="hover:text-gray-900 hover:underline transition-colors duration-200"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="hover:text-gray-900 hover:underline transition-colors duration-200"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
 
         {/* Our Tools */}
         <div>
-          <h4 className="font-bold text-lg text-gray-900 mb-3">Our Tools</h4>
-          <ul className="space-y-2 text-sm text-gray-700">
-            <li>
-              <Link
-                href="/tools/youtube"
-                className="hover:text-gray-900 hover:underline transition-colors duration-200"
-              >
-                Youtube Content Gen.
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/tools/whatsapp"
-                className="hover:text-gray-900 hover:underline transition-colors duration-200"
-              >
-                WhatsApp Status Gen.
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/tools/instagram"
-                className="hover:text-gray-900 hover:underline transition-colors duration-200"
-              >
-                Insta caption/bio Gen.
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/tools/linkedin"
-                className="hover:text-gray-900 hover:underline transition-colors duration-200"
-              >
-                Linkedin Post Gen.
-              </Link>
-            </li>
-          </ul>
+          <nav aria-label="Our Tools">
+            <h3 className="font-bold text-lg text-gray-900 mb-3">Our Tools</h3>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li>
+                <Link
+                  href="/tools/youtube"
+                  className="hover:text-gray-900 hover:underline transition-colors duration-200"
+                >
+                  Youtube Content Gen.
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/tools/whatsapp"
+                  className="hover:text-gray-900 hover:underline transition-colors duration-200"
+                >
+                  WhatsApp Status Gen.
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/tools/instagram"
+                  className="hover:text-gray-900 hover:underline transition-colors duration-200"
+                >
+                  Insta caption/bio Gen.
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/tools/linkedin"
+                  className="hover:text-gray-900 hover:underline transition-colors duration-200"
+                >
+                  Linkedin Post Gen.
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
 

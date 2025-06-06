@@ -11,9 +11,10 @@ const InstaCategoriesCard = ({ categories }) => {
     try {
       await navigator.clipboard.writeText(fullText);
       setCopiedIndex(index);
+      toast.success("Successfully copied!");
       setTimeout(() => setCopiedIndex(null), 1500);
     } catch (err) {
-      alert("Failed to copy!");
+      toast.error("Failed to copy!");
     }
   };
 
@@ -23,6 +24,11 @@ const InstaCategoriesCard = ({ categories }) => {
       <h1 className="text-4xl font-bold text-center text-rose-600 mb-12">
         🎀 Instagram Captions by Theme
       </h1>
+      <p className="text-rose-400 text-lg leading-relaxed max-w-3xl mx-auto mb-10 text-center">
+        Discover the perfect Instagram captions tailored for every mood and
+        occasion. From heartfelt to hilarious, explore our curated collection to
+        elevate your posts and boost engagement with your followers.
+      </p>
       <nav className="mb-8 flex flex-wrap justify-center gap-4">
         {categories.map((cat) => {
           const id = cat.title
@@ -51,6 +57,10 @@ const InstaCategoriesCard = ({ categories }) => {
             <h2 className="text-2xl font-semibold text-rose-500 mb-4 border-b pb-1">
               {cat.title}
             </h2>
+            <p className="text-sm sm:text-base text-rose-400 mt-1 mb-6 italic">
+              {cat.intro}
+            </p>
+
             {Object.entries(cat.subcategories).map(([sub, captions]) => (
               <div key={sub} className="mb-6">
                 <h3 className="text-xl font-medium text-gray-800 mb-4">

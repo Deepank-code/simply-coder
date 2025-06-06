@@ -2,6 +2,7 @@
 
 import { ClipboardCopy } from "lucide-react";
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 const WhatsAppCategoriesCard = ({ categories }) => {
   const [copiedIndex, setCopiedIndex] = useState(null);
@@ -10,9 +11,10 @@ const WhatsAppCategoriesCard = ({ categories }) => {
     try {
       await navigator.clipboard.writeText(text);
       setCopiedIndex(i);
+      toast.success("Successfully copied!");
       setTimeout(() => setCopiedIndex(null), 1500);
     } catch (err) {
-      alert("Failed to copy!");
+      toast.error("Failed to copy!");
     }
   };
 
@@ -48,11 +50,17 @@ const WhatsAppCategoriesCard = ({ categories }) => {
             {cat.title}
           </h2>
 
-          {Object.entries(cat.subcategories).map(([sub, statuses]) => (
+          {Object.entries(cat.subcategories).map(([sub, content]) => (
             <div key={sub} className="mb-6">
               <h3 className="text-xl font-medium text-gray-800 mb-2">{sub}</h3>
+
+              {/* Paragraph intro for each subcategory */}
+              <p className="text-gray-700 text-base mb-3">
+                {content.paragraph}
+              </p>
+
               <ul className="space-y-2 list-disc list-inside text-gray-700">
-                {statuses.map((status) => {
+                {content.messages.map((status) => {
                   const localIndex = idx++;
                   return (
                     <li
@@ -60,6 +68,7 @@ const WhatsAppCategoriesCard = ({ categories }) => {
                       className="bg-white/70 backdrop-blur-md p-3 rounded-xl shadow-sm flex justify-between items-center group"
                     >
                       <span className="pr-3">{status}</span>
+
                       <button
                         onClick={() => copyToClipboard(status, localIndex)}
                         className="opacity-60 group-hover:opacity-100 transition"

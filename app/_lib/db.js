@@ -1,849 +1,486 @@
 export const instaCategories = [
   {
     title: "🌸 Aesthetic",
+    intro:
+      "Aesthetic Insta caption are your perfect match if you're drawn to poetic visuals, minimal moods, and calm yet expressive vibes. Whether you're capturing golden hour, a peaceful coffee moment, or the charm of vintage tones, these statuses help you turn everyday moments into a soft story. Curated for creatives, dreamers, and lovers of beauty, this category lets your inner aesthetic shine—perfect for social shares and attracting engagement.",
     subcategories: {
       General: [
         {
-          text: "Lost in the moment, found in the light ✨",
-          hashtags: ["#aesthetic", "#vibes", "#light", "#moody"],
+          text: "Golden hour feels like a warm hug for the soul 🌅",
+          hashtags: ["#goldenhour", "#sunsetvibes", "#soulful", "#aesthetic"],
         },
         {
-          text: "Soft skies and softer thoughts 🌫️",
-          hashtags: ["#softvibes", "#skyporn", "#calm", "#peaceful"],
+          text: "Soft chaos wrapped in pastel dreams 🎨",
+          hashtags: ["#pastelvibes", "#calmchaos", "#artistic", "#aesthetic"],
         },
         {
-          text: "Chasing light, catching vibes 🌻",
-          hashtags: ["#lightchaser", "#goodvibes", "#summer", "#aesthetic"],
+          text: "Where silence speaks louder than words 🌫️",
+          hashtags: ["#minimalmood", "#silence", "#peace", "#aesthetic"],
         },
         {
-          text: "Painted in pastels and peace 🎨",
-          hashtags: ["#pastelcolors", "#art", "#peaceful", "#softtones"],
+          text: "Framing life in soft focus and softer thoughts 🖼️",
+          hashtags: ["#softfocus", "#gentlethoughts", "#vibes", "#aesthetic"],
         },
         {
-          text: "Golden hour is my kind of therapy 🌅",
-          hashtags: ["#goldenhour", "#sunset", "#naturetherapy", "#aesthetic"],
-        },
-        {
-          text: "Breathing in calm, exhaling chaos 🍃",
-          hashtags: ["#calm", "#breathe", "#mindfulness", "#peace"],
-        },
-        {
-          text: "Moody tones and mellow days 🖤",
-          hashtags: ["#moodygrams", "#darktones", "#vibes", "#aesthetic"],
-        },
-        {
-          text: "Sun-drenched skin and moonlit thoughts 🌙",
-          hashtags: ["#sunlight", "#moonlight", "#dreamy", "#aesthetic"],
-        },
-        {
-          text: "Waves whisper what words can’t 🌊",
-          hashtags: ["#waves", "#oceanvibes", "#nature", "#calm"],
-        },
-        {
-          text: "Simplicity is the ultimate sophistication 🌼",
-          hashtags: ["#simplicity", "#minimalism", "#classy", "#aesthetic"],
-        },
-        {
-          text: "In a world of noise, be the quiet 🌫",
-          hashtags: ["#quietmind", "#peace", "#silence", "#calmvibes"],
-        },
-        {
-          text: "A flower does not think of competing… it just blooms 🌸",
-          hashtags: ["#growth", "#selflove", "#bloom", "#nature"],
-        },
-        {
-          text: "Clouded mind, clear skies ☁️",
-          hashtags: ["#clarity", "#mindset", "#peaceful", "#nature"],
-        },
-        {
-          text: "Coffee, calm, and cloudy skies ☕",
-          hashtags: ["#coffeevibes", "#calm", "#aesthetic", "#relax"],
-        },
-        {
-          text: "The earth has music for those who listen 🍂",
-          hashtags: ["#naturelover", "#earth", "#music", "#aesthetic"],
-        },
-        {
-          text: "Serenity is a vibe I wear daily 🕊️",
-          hashtags: ["#serenity", "#peace", "#calmvibes", "#aesthetic"],
-        },
-        {
-          text: "Just existing beautifully 🌷",
-          hashtags: ["#selflove", "#beauty", "#existence", "#aesthetic"],
-        },
-        {
-          text: "Flecks of sunshine and stories untold 🌞",
-          hashtags: ["#sunshine", "#stories", "#vibes", "#aesthetic"],
-        },
-        {
-          text: "Velvet skies and vintage hearts 🌃",
-          hashtags: ["#vintage", "#nightvibes", "#aesthetic", "#moody"],
-        },
-        {
-          text: "Dreaming in slow motion 🎞️",
-          hashtags: ["#dreamy", "#slowmotion", "#vibes", "#aesthetic"],
-        },
-        {
-          text: "Wrapped in warmth and wistful days 🌻",
-          hashtags: ["#warmvibes", "#wistful", "#aesthetic", "#cozy"],
-        },
-        {
-          text: "Echoes of elegance in every breath 🪞",
-          hashtags: ["#elegance", "#beauty", "#aesthetic", "#grace"],
-        },
-        {
-          text: "Soft thoughts and hard boundaries ✨",
-          hashtags: ["#boundaries", "#selfcare", "#mentalhealth", "#aesthetic"],
-        },
-        {
-          text: "Not lost, just wandering gracefully 🌿",
-          hashtags: ["#wanderlust", "#graceful", "#nature", "#aesthetic"],
-        },
-        {
-          text: "Taking up space in the most gentle way ☁️",
-          hashtags: ["#selflove", "#gentle", "#growth", "#aesthetic"],
-        },
-        {
-          text: "Moon phases and mood swings 🌘",
-          hashtags: ["#moonphases", "#moods", "#aesthetic", "#nature"],
-        },
-        {
-          text: "Delicate chaos is still art 🎭",
-          hashtags: ["#chaos", "#art", "#beauty", "#aesthetic"],
-        },
-        {
-          text: "She was poetry in a world that preferred prose 📖",
-          hashtags: ["#poetry", "#beauty", "#aesthetic", "#expression"],
-        },
-        {
-          text: "Sun-kissed and soul-fed 🌞",
-          hashtags: ["#sunkissed", "#soulful", "#aesthetic", "#vibes"],
-        },
-        {
-          text: "Everything is better in sepia tones 📷",
-          hashtags: ["#sepia", "#vintage", "#aesthetic", "#photo"],
-        },
-        {
-          text: "Wearing silence like it’s couture 🤍",
-          hashtags: ["#silence", "#style", "#aesthetic", "#minimalism"],
-        },
-        {
-          text: "Beneath the stars, everything softens 🌌",
-          hashtags: ["#stars", "#night", "#softvibes", "#aesthetic"],
-        },
-        {
-          text: "Blurred lines, clear intentions ✨",
-          hashtags: ["#clarity", "#intention", "#aesthetic", "#vibes"],
-        },
-        {
-          text: "Mismatched socks and perfectly timed smiles 🧦",
-          hashtags: ["#quirky", "#happyvibes", "#aesthetic", "#fun"],
-        },
-        {
-          text: "Aesthetic is a language I speak fluently 🎨",
-          hashtags: ["#aesthetic", "#style", "#vibes", "#expression"],
-        },
-        {
-          text: "Rainy windows and open books 📚",
-          hashtags: ["#rainyday", "#books", "#calm", "#aesthetic"],
-        },
-        {
-          text: "Whispers of lavender and dusk 💜",
-          hashtags: ["#lavender", "#dusk", "#aesthetic", "#vibes"],
-        },
-        {
-          text: "Some days just feel like vintage film 🎞️",
-          hashtags: ["#vintage", "#film", "#aesthetic", "#nostalgia"],
-        },
-        {
-          text: "Minimal effort, maximal peace 🕊️",
-          hashtags: ["#minimalism", "#peace", "#selfcare", "#aesthetic"],
-        },
-        {
-          text: "A moment of stillness in a rushing world 🍂",
-          hashtags: ["#stillness", "#mindfulness", "#nature", "#aesthetic"],
-        },
-        {
-          text: "Light leaks and quiet weeks 🪟",
-          hashtags: ["#lightleaks", "#quiet", "#vibes", "#aesthetic"],
-        },
-        {
-          text: "Existing somewhere between art and emotion 🖼️",
-          hashtags: ["#art", "#emotion", "#aesthetic", "#creative"],
-        },
-        {
-          text: "Faded jeans, full heart 💙",
-          hashtags: ["#fadedjeans", "#love", "#aesthetic", "#style"],
-        },
-        {
-          text: "Romanticizing the little things daily 💫",
-          hashtags: ["#romantic", "#aesthetic", "#details", "#love"],
-        },
-        {
-          text: "Candles, tea, and time to breathe 🕯️",
-          hashtags: ["#candles", "#tea", "#relax", "#aesthetic"],
-        },
-        {
-          text: "When in doubt, slow it down 🐚",
-          hashtags: ["#slowdown", "#calm", "#selfcare", "#aesthetic"],
-        },
-        {
-          text: "Not perfect, but softly powerful 🌙",
-          hashtags: ["#selflove", "#powerful", "#aesthetic", "#vibes"],
-        },
-        {
-          text: "Tangled hair, untangled soul 🌾",
-          hashtags: ["#natural", "#aesthetic", "#freedom", "#vibes"],
-        },
-        {
-          text: "Caught between a memory and a dream ☁️",
-          hashtags: ["#memory", "#dream", "#aesthetic", "#moody"],
-        },
-        {
-          text: "Everything blooms in its own time 🌱",
-          hashtags: ["#growth", "#patience", "#nature", "#aesthetic"],
+          text: "Mood: Coffee in hand, mind at peace ☕",
+          hashtags: [
+            "#coffeetime",
+            "#peacefulmind",
+            "#aestheticlife",
+            "#calmvibes",
+          ],
         },
       ],
       selfie: [
         {
-          text: "Lost in the moment, found in the light ✨",
-          hashtags: ["#aesthetic", "#vibes", "#light", "#moody"],
+          text: "Glowing differently when I'm aligned with peace ✨",
+          hashtags: ["#glowup", "#innerpeace", "#aestheticvibes", "#selfie"],
         },
         {
-          text: "Soft skies and softer thoughts 🌫️",
-          hashtags: ["#softvibes", "#skyporn", "#calm", "#peaceful"],
+          text: "Sun on my skin, stars in my eyes 🌞🌌",
+          hashtags: ["#sunshine", "#cosmicenergy", "#vibing", "#selflove"],
         },
         {
-          text: "Chasing light, catching vibes 🌻",
-          hashtags: ["#lightchaser", "#goodvibes", "#summer", "#aesthetic"],
+          text: "Messy hair, clear intentions 🌿",
+          hashtags: [
+            "#naturalbeauty",
+            "#selfcare",
+            "#softvibes",
+            "#selfiequotes",
+          ],
         },
         {
-          text: "Painted in pastels and peace 🎨",
-          hashtags: ["#pastelcolors", "#art", "#peaceful", "#softtones"],
+          text: "Beauty in the blur, peace in the pause 📸",
+          hashtags: [
+            "#blurredlines",
+            "#serenity",
+            "#aestheticselfie",
+            "#moody",
+          ],
         },
         {
-          text: "Golden hour is my kind of therapy 🌅",
-          hashtags: ["#goldenhour", "#sunset", "#naturetherapy", "#aesthetic"],
-        },
-        {
-          text: "Breathing in calm, exhaling chaos 🍃",
-          hashtags: ["#calm", "#breathe", "#mindfulness", "#peace"],
-        },
-        {
-          text: "Moody tones and mellow days 🖤",
-          hashtags: ["#moodygrams", "#darktones", "#vibes", "#aesthetic"],
-        },
-        {
-          text: "Sun-drenched skin and moonlit thoughts 🌙",
-          hashtags: ["#sunlight", "#moonlight", "#dreamy", "#aesthetic"],
-        },
-        {
-          text: "Waves whisper what words can’t 🌊",
-          hashtags: ["#waves", "#oceanvibes", "#nature", "#calm"],
-        },
-        {
-          text: "Simplicity is the ultimate sophistication 🌼",
-          hashtags: ["#simplicity", "#minimalism", "#classy", "#aesthetic"],
-        },
-        {
-          text: "In a world of noise, be the quiet 🌫",
-          hashtags: ["#quietmind", "#peace", "#silence", "#calmvibes"],
-        },
-        {
-          text: "A flower does not think of competing… it just blooms 🌸",
-          hashtags: ["#growth", "#selflove", "#bloom", "#nature"],
-        },
-        {
-          text: "Clouded mind, clear skies ☁️",
-          hashtags: ["#clarity", "#mindset", "#peaceful", "#nature"],
-        },
-        {
-          text: "Coffee, calm, and cloudy skies ☕",
-          hashtags: ["#coffeevibes", "#calm", "#aesthetic", "#relax"],
-        },
-        {
-          text: "The earth has music for those who listen 🍂",
-          hashtags: ["#naturelover", "#earth", "#music", "#aesthetic"],
-        },
-        {
-          text: "Serenity is a vibe I wear daily 🕊️",
-          hashtags: ["#serenity", "#peace", "#calmvibes", "#aesthetic"],
-        },
-        {
-          text: "Just existing beautifully 🌷",
-          hashtags: ["#selflove", "#beauty", "#existence", "#aesthetic"],
-        },
-        {
-          text: "Flecks of sunshine and stories untold 🌞",
-          hashtags: ["#sunshine", "#stories", "#vibes", "#aesthetic"],
-        },
-        {
-          text: "Velvet skies and vintage hearts 🌃",
-          hashtags: ["#vintage", "#nightvibes", "#aesthetic", "#moody"],
-        },
-        {
-          text: "Dreaming in slow motion 🎞️",
-          hashtags: ["#dreamy", "#slowmotion", "#vibes", "#aesthetic"],
-        },
-        {
-          text: "Wrapped in warmth and wistful days 🌻",
-          hashtags: ["#warmvibes", "#wistful", "#aesthetic", "#cozy"],
-        },
-        {
-          text: "Echoes of elegance in every breath 🪞",
-          hashtags: ["#elegance", "#beauty", "#aesthetic", "#grace"],
-        },
-        {
-          text: "Soft thoughts and hard boundaries ✨",
-          hashtags: ["#boundaries", "#selfcare", "#mentalhealth", "#aesthetic"],
-        },
-        {
-          text: "Not lost, just wandering gracefully 🌿",
-          hashtags: ["#wanderlust", "#graceful", "#nature", "#aesthetic"],
-        },
-        {
-          text: "Taking up space in the most gentle way ☁️",
-          hashtags: ["#selflove", "#gentle", "#growth", "#aesthetic"],
-        },
-        {
-          text: "Moon phases and mood swings 🌘",
-          hashtags: ["#moonphases", "#moods", "#aesthetic", "#nature"],
-        },
-        {
-          text: "Delicate chaos is still art 🎭",
-          hashtags: ["#chaos", "#art", "#beauty", "#aesthetic"],
-        },
-        {
-          text: "She was poetry in a world that preferred prose 📖",
-          hashtags: ["#poetry", "#beauty", "#aesthetic", "#expression"],
-        },
-        {
-          text: "Sun-kissed and soul-fed 🌞",
-          hashtags: ["#sunkissed", "#soulful", "#aesthetic", "#vibes"],
-        },
-        {
-          text: "Everything is better in sepia tones 📷",
-          hashtags: ["#sepia", "#vintage", "#aesthetic", "#photo"],
-        },
-        {
-          text: "Wearing silence like it’s couture 🤍",
-          hashtags: ["#silence", "#style", "#aesthetic", "#minimalism"],
-        },
-        {
-          text: "Beneath the stars, everything softens 🌌",
-          hashtags: ["#stars", "#night", "#softvibes", "#aesthetic"],
-        },
-        {
-          text: "Blurred lines, clear intentions ✨",
-          hashtags: ["#clarity", "#intention", "#aesthetic", "#vibes"],
-        },
-        {
-          text: "Mismatched socks and perfectly timed smiles 🧦",
-          hashtags: ["#quirky", "#happyvibes", "#aesthetic", "#fun"],
-        },
-        {
-          text: "Aesthetic is a language I speak fluently 🎨",
-          hashtags: ["#aesthetic", "#style", "#vibes", "#expression"],
-        },
-        {
-          text: "Rainy windows and open books 📚",
-          hashtags: ["#rainyday", "#books", "#calm", "#aesthetic"],
-        },
-        {
-          text: "Whispers of lavender and dusk 💜",
-          hashtags: ["#lavender", "#dusk", "#aesthetic", "#vibes"],
-        },
-        {
-          text: "Some days just feel like vintage film 🎞️",
-          hashtags: ["#vintage", "#film", "#aesthetic", "#nostalgia"],
-        },
-        {
-          text: "Minimal effort, maximal peace 🕊️",
-          hashtags: ["#minimalism", "#peace", "#selfcare", "#aesthetic"],
-        },
-        {
-          text: "A moment of stillness in a rushing world 🍂",
-          hashtags: ["#stillness", "#mindfulness", "#nature", "#aesthetic"],
-        },
-        {
-          text: "Light leaks and quiet weeks 🪟",
-          hashtags: ["#lightleaks", "#quiet", "#vibes", "#aesthetic"],
-        },
-        {
-          text: "Existing somewhere between art and emotion 🖼️",
-          hashtags: ["#art", "#emotion", "#aesthetic", "#creative"],
-        },
-        {
-          text: "Faded jeans, full heart 💙",
-          hashtags: ["#fadedjeans", "#love", "#aesthetic", "#style"],
-        },
-        {
-          text: "Romanticizing the little things daily 💫",
-          hashtags: ["#romantic", "#aesthetic", "#details", "#love"],
-        },
-        {
-          text: "Candles, tea, and time to breathe 🕯️",
-          hashtags: ["#candles", "#tea", "#relax", "#aesthetic"],
-        },
-        {
-          text: "When in doubt, slow it down 🐚",
-          hashtags: ["#slowdown", "#calm", "#selfcare", "#aesthetic"],
-        },
-        {
-          text: "Not perfect, but softly powerful 🌙",
-          hashtags: ["#selflove", "#powerful", "#aesthetic", "#vibes"],
-        },
-        {
-          text: "Tangled hair, untangled soul 🌾",
-          hashtags: ["#natural", "#aesthetic", "#freedom", "#vibes"],
-        },
-        {
-          text: "Caught between a memory and a dream ☁️",
-          hashtags: ["#memory", "#dream", "#aesthetic", "#moody"],
-        },
-        {
-          text: "Everything blooms in its own time 🌱",
-          hashtags: ["#growth", "#patience", "#nature", "#aesthetic"],
+          text: "Feeling soft but standing strong 💫",
+          hashtags: [
+            "#feminineenergy",
+            "#strongvibes",
+            "#minimalmood",
+            "#selfportrait",
+          ],
         },
       ],
       Nature_Inspired: [
         {
-          text: "Earth laughs in flowers 🌸",
-          hashtags: ["#nature", "#flowers", "#aesthetic", "#earth"],
+          text: "Whispers of the wind tell ancient stories 🍃",
+          hashtags: [
+            "#naturewisdom",
+            "#earthlove",
+            "#aestheticnature",
+            "#mindfulmoments",
+          ],
         },
         {
-          text: "Waves whisper what words can’t 🌊",
-          hashtags: ["#waves", "#ocean", "#aesthetic", "#nature"],
+          text: "Sunsets teach us how to let go beautifully 🌇",
+          hashtags: [
+            "#sunsetthoughts",
+            "#lettinggo",
+            "#aestheticlight",
+            "#peace",
+          ],
         },
-        // ... add more
+        {
+          text: "Barefoot thoughts and sky-high dreams 🌤️",
+          hashtags: [
+            "#grounded",
+            "#dreamychapters",
+            "#naturevibes",
+            "#aestheticlife",
+          ],
+        },
+        {
+          text: "Flowers bloom without permission—so should you 🌸",
+          hashtags: [
+            "#selfgrowth",
+            "#naturequotes",
+            "#aestheticmood",
+            "#bloom",
+          ],
+        },
+        {
+          text: "The moon doesn’t ask for attention—it just shines 🌕",
+          hashtags: [
+            "#moonmood",
+            "#selfworth",
+            "#aestheticnights",
+            "#quietpower",
+          ],
+        },
       ],
     },
   },
 
   {
     title: "🔥 Attitude",
+    intro:
+      "The 'Attitude' status category is for those who walk with confidence, speak their truth, and never dim their shine. These lines reflect bold vibes, unapologetic individuality, and a touch of spice. Whether you're asserting boundaries or just vibing with self-pride, these statuses let your personality do the talking. Perfect for WhatsApp, Instagram, or anywhere you want to leave a mark.",
     subcategories: {
       General: [
         {
-          text: "I'm not a second option, you either choose me or lose me.",
-          hashtags: ["#attitude", "#confidence", "#selfworth"],
+          text: "I’m not a backup plan—either you choose me, or lose me. Simple.",
+          hashtags: ["#attitude", "#selfworth", "#takeitorleaveit"],
         },
         {
-          text: "Born to express, not to impress. 😎",
-          hashtags: ["#expressyourself", "#authentic", "#bold"],
+          text: "I’m not here to impress—I’m here to be real. 😎",
+          hashtags: ["#authentic", "#boldvibes", "#realme"],
         },
         {
-          text: "My attitude is a result of your actions, so blame yourself.",
-          hashtags: ["#attitude", "#accountability", "#truth"],
+          text: "My attitude is your reflection. Don’t like it? Check your actions.",
+          hashtags: ["#mirrorvibes", "#attitude", "#facts"],
         },
         {
-          text: "I'm too busy working on my own grass to notice if yours is greener.",
-          hashtags: ["#focusonyourself", "#growth", "#mindset"],
+          text: "I water my own grass—I don’t care how green yours looks.",
+          hashtags: ["#stayfocused", "#growthmindset", "#ownlane"],
         },
         {
-          text: "Treat me like a joke and I'll leave you like it's funny.",
-          hashtags: ["#respect", "#boundaries", "#byefelicia"],
+          text: "If you treat me like a joke, don’t be surprised when I walk away laughing.",
+          hashtags: ["#respectyourself", "#knowmystandard", "#attitude"],
         },
         {
-          text: "I don't have an attitude problem, you have a perception problem.",
-          hashtags: ["#perception", "#reality", "#knowyourworth"],
+          text: "I don’t have an attitude problem. I just don’t pretend to like things I don’t.",
+          hashtags: ["#realtalk", "#nofilter", "#rawvibes"],
         },
         {
-          text: "The only way to do great work is to love what you do. And have a strong attitude.",
-          hashtags: ["#workethic", "#passion", "#attitudeiskey"],
+          text: "Great work needs passion—and a bit of bold attitude. 💪",
+          hashtags: ["#hustlemode", "#passiondriven", "#strongmind"],
         },
         {
-          text: "I'm not arguing, I'm just explaining why I'm right. With attitude.",
-          hashtags: ["#sarcasm", "#attitude", "#confidence"],
+          text: "Not arguing. Just explaining why I’m absolutely right—with style.",
+          hashtags: ["#sassmode", "#confidence", "#ownit"],
         },
         {
-          text: "Don't mistake my kindness for weakness. I'm kind to everyone, but when someone is unkind to me, weak is not what you are going to remember about me.",
-          hashtags: ["#strength", "#kindness", "#respect"],
+          text: "Don’t confuse kindness with weakness—I’m calm, not soft.",
+          hashtags: ["#strongheart", "#respectboundaries", "#attitudestatus"],
         },
         {
-          text: "I'm not for everyone. And that's perfectly okay.",
-          hashtags: ["#individuality", "#selfacceptance", "#unique"],
+          text: "I wasn’t built to fit in. And that’s exactly the plan.",
+          hashtags: ["#standout", "#uniquevibes", "#beyourself"],
         },
       ],
       Sarcasm: [
         {
-          text: "Sure, I do marathons. On Netflix.",
-          hashtags: ["#sarcasm", "#funny", "#attitude"],
+          text: "Yes, I do marathons. One episode after another on Netflix.",
+          hashtags: ["#sarcasticmood", "#bingewatch", "#lazyvibes"],
         },
         {
-          text: "I’m not arguing, I’m just explaining why I’m right.",
-          hashtags: ["#sarcasm", "#attitude", "#funny"],
+          text: "Not arguing—just loudly sharing superior knowledge. 😌",
+          hashtags: ["#sarcasm", "#confidence", "#funnybones"],
         },
         {
-          text: "Oh, you're so right. I forgot how it feels to be wrong. It's been so long.",
-          hashtags: ["#sarcasm", "#humor", "#smartass"],
+          text: "Oh totally! I love being wrong… just don’t remember how that feels.",
+          hashtags: ["#sarcasmlife", "#humor", "#gotcha"],
         },
         {
-          text: "I'd agree with you, but then we'd both be wrong.",
-          hashtags: ["#sarcasm", "#funny", "#clever"],
+          text: "I’d agree with you, but I’d hate for us both to be wrong. 🤷‍♂️",
+          hashtags: ["#witty", "#savagequotes", "#sarcastic"],
         },
         {
-          text: "I'm not saying I'm Batman, I'm just saying no one has ever seen me and Batman in the same room together.",
-          hashtags: ["#sarcasm", "#humor", "#mystery"],
+          text: "Not saying I’m Batman… but no one’s proven otherwise yet. 🦇",
+          hashtags: ["#mysteryvibes", "#funnyaf", "#sarcasticmood"],
         },
         {
-          text: "My alarm clock is clearly jealous of my amazing dreams.",
-          hashtags: ["#sarcasm", "#sleepy", "#funny"],
+          text: "If dreams were real, I’d be rich and still sleeping.",
+          hashtags: ["#sleepgoals", "#sarcasm", "#relatable"],
         },
         {
-          text: "I'm not lazy, I'm on energy-saving mode.",
-          hashtags: ["#sarcasm", "#lazy", "#humor"],
+          text: "Energy-saving mode: Activated. Productivity: Who?",
+          hashtags: ["#lazygenius", "#funnyquote", "#sarcasticvibes"],
         },
         {
-          text: "I love deadlines. I like the whooshing sound they make as they fly by.",
-          hashtags: ["#sarcasm", "#procrastination", "#funny"],
+          text: "Deadlines inspire me—right before they hit me in the face.",
+          hashtags: ["#procrastinatorsunite", "#lastminutework", "#humorous"],
         },
         {
-          text: "The road to success is always under construction. Especially when I'm in charge.",
-          hashtags: ["#sarcasm", "#humor", "#selfdeprecating"],
+          text: "Success is under construction. And I left the blueprint at home.",
+          hashtags: ["#sarcasm", "#messymindset", "#lolquotes"],
         },
         {
-          text: "I'm currently experiencing life at a rate of several WTF's per hour.",
-          hashtags: ["#sarcasm", "#life", "#relatable"],
+          text: "Life lately: running on caffeine, chaos, and 'what now?' moments.",
+          hashtags: ["#sarcastictruth", "#lifehits", "#funnyattitude"],
         },
       ],
     },
   },
+
   {
     title: "😂 Funny",
+    intro:
+      "The 'Funny' status category brings you a daily dose of laughter and light-heartedness. Perfect for Instagram bios, captions, and stories, these witty lines are made to entertain, relate, and make others smile. From everyday struggles to lazy vibes and hilarious observations, these statuses turn real-life moments into comic gold.",
     subcategories: {
       General: [
         {
-          text: "Instagram vs. reality. Guess which one this is?",
-          hashtags: ["#funny", "#reality", "#instagram", "#humor"],
+          text: "Instagram vs. Reality—I'll let you guess which one this mess is.",
+          hashtags: ["#funny", "#realitycheck", "#instavsreality", "#lol"],
         },
         {
-          text: "I followed my heart. It led me to the fridge. 🧀",
-          hashtags: ["#funny", "#foodie", "#fridge", "#humor"],
+          text: "I followed my heart… and now I’m standing in front of the fridge. Again. 🧀",
+          hashtags: ["#foodiehumor", "#funnyquotes", "#midnacks"],
         },
         {
-          text: "Relationship status: Netflix and sweatpants.",
-          hashtags: ["#funny", "#relatable", "#netflix", "#cozy"],
+          text: "Relationship status: Loyal to Netflix and committed to sweatpants.",
+          hashtags: ["#funny", "#netflixnchill", "#lazydayvibes"],
         },
         {
-          text: "I'm not sure what's tighter, my jeans after the holidays or my budget.",
-          hashtags: ["#funny", "#relatable", "#holidays", "#budget"],
+          text: "My jeans after holidays: tighter than my budget.",
+          hashtags: ["#holidaystruggle", "#funnytruth", "#relatable"],
         },
         {
-          text: "My brain has too many tabs open.",
-          hashtags: ["#funny", "#relatable", "#overthinking"],
+          text: "My brain’s like a browser—28 tabs open, 5 frozen, and I have no idea where the music is coming from.",
+          hashtags: ["#overthinking", "#funny", "#relatablevibes"],
         },
         {
-          text: "Adulting is like folding a fitted sheet. No one really knows how.",
-          hashtags: ["#funny", "#adultingishard", "#relatable"],
+          text: "Adulting is basically pretending to know what you’re doing while Googling everything.",
+          hashtags: ["#adultingishard", "#funnytruths", "#lifefacts"],
         },
         {
-          text: "I'm not saying I'm a superhero, but I did manage to get out of bed today.",
-          hashtags: ["#funny", "#motivation", "#smallvictories"],
+          text: "Not all heroes wear capes—some just manage to get out of bed.",
+          hashtags: ["#smallwins", "#funny", "#mood"],
         },
         {
-          text: "I need a six-month vacation, twice a year.",
-          hashtags: ["#funny", "#vacation", "#wishfulthinking"],
+          text: "If vacationing were a job, I’d already be CEO. ✈️",
+          hashtags: ["#funnyquotes", "#vacationvibes", "#wishfulthinking"],
         },
         {
-          text: "My diet plan: Make all of my friends cupcakes; the fatter they get, the thinner I look.",
-          hashtags: ["#funny", "#diet", "#friends"],
+          text: "My diet plan: Feed cupcakes to everyone else so I look thinner by comparison.",
+          hashtags: ["#funny", "#dietfail", "#savagehumor"],
         },
         {
-          text: "I'm not arguing, I'm just passionately discussing my opinion... which happens to be correct.",
-          hashtags: ["#funny", "#opinion", "#confidence"],
+          text: "I'm not arguing—just passionately sharing correct information. 😌",
+          hashtags: ["#funny", "#confidence", "#debatevibes"],
         },
       ],
       "Lazy Mood": [
         {
-          text: "Nap queen 👑",
-          hashtags: ["#lazy", "#nap", "#funny", "#relax"],
+          text: "Nap queen 👑 ruling from the land of pillows.",
+          hashtags: ["#naplife", "#lazyvibes", "#funny", "#comfortzone"],
         },
         {
-          text: "Too glam to give a damn 😴",
-          hashtags: ["#glam", "#lazy", "#funny", "#mood"],
+          text: "Too glam to give a nap. 😴",
+          hashtags: ["#lazyqueen", "#funnyattitude", "#napmode"],
         },
         {
-          text: "My superpower is that I can sleep anywhere.",
-          hashtags: ["#lazy", "#sleep", "#superpower", "#funny"],
+          text: "I have a hidden talent: I can fall asleep anywhere, anytime.",
+          hashtags: ["#sleepingbeauty", "#funny", "#lazy"],
         },
         {
-          text: "I'm not avoiding work, I'm just conserving energy for more important things... like napping.",
-          hashtags: ["#lazy", "#procrastination", "#sleep"],
+          text: "I’m not avoiding responsibilities—I’m just power-saving for a nap.",
+          hashtags: ["#lazylogic", "#funnyvibes", "#restingenergy"],
         },
         {
-          text: "Weekend forecast: 99% chance of naps.",
-          hashtags: ["#lazy", "#weekend", "#sleep", "#forecast"],
+          text: "Weekend forecast: Cloudy with a 99% chance of naps.",
+          hashtags: ["#weekendmode", "#napforecast", "#funny"],
         },
         {
-          text: "I'm in a committed relationship with my bed.",
-          hashtags: ["#lazy", "#bedlover", "#funny", "#comfort"],
+          text: "My longest relationship is with my bed. We’re solid.",
+          hashtags: ["#lazytruth", "#bedlover", "#funny", "#comfort"],
         },
         {
-          text: "My brain says gym, but my couch says nap. Guess who's winning?",
-          hashtags: ["#lazy", "#gymvsbed", "#funny"],
+          text: "My brain says 'go to the gym' but my soul whispers 'nap time'.",
+          hashtags: ["#lazyvibes", "#funny", "#gymwho"],
         },
         {
-          text: "Current mood: Permanently horizontal.",
-          hashtags: ["#lazy", "#mood", "#relax"],
+          text: "Mood: Permanently horizontal with snack support.",
+          hashtags: ["#lazyhumor", "#funny", "#relatable"],
         },
         {
-          text: "I'm not moving unless there's food involved.",
-          hashtags: ["#lazy", "#foodie", "#motivation"],
+          text: "Will only move if snacks are involved.",
+          hashtags: ["#lazygoals", "#foodmotivated", "#funny"],
         },
         {
-          text: "Productivity level: Snail on vacation.",
-          hashtags: ["#lazy", "#slow", "#funny"],
+          text: "Productivity: Snail on vacation. Effort: Minimal. Vibes: Immaculate.",
+          hashtags: ["#funny", "#lazyday", "#chillmode"],
         },
       ],
     },
   },
+
   {
     title: "❤️ Love",
+    intro:
+      "The 'Love' status collection captures heartfelt emotions, dreamy romance, and meaningful moments for someone special. Whether you're expressing sweet feelings, celebrating a relationship, or dropping a charming one-liner, these statuses are perfect for WhatsApp, Instagram captions, or sharing with your partner. Let your love speak in style.",
     subcategories: {
-      Couple: [
+      General: [
         {
-          text: "You're my favorite notification. 💌",
-          hashtags: ["#love", "#couple", "#relationship", "#romance"],
+          text: "Love isn’t just a feeling, it’s my favorite kind of home.",
+          hashtags: ["#lovequotes", "#emotional", "#heartfelt"],
         },
         {
-          text: "Together is my favorite place to be.",
-          hashtags: ["#together", "#love", "#couplegoals"],
+          text: "You made my heart smile in ways words can't explain.",
+          hashtags: ["#love", "#feelings", "#romance"],
         },
         {
-          text: "Every love story is beautiful, but ours is my favorite.",
-          hashtags: ["#love", "#couple", "#ourstory"],
+          text: "Some people search their whole lives for what I found in you.",
+          hashtags: ["#truelove", "#soulmate", "#gratefulheart"],
         },
         {
-          text: "You're the missing piece I didn't even know I was looking for.",
-          hashtags: ["#love", "#relationship", "#soulmate"],
+          text: "You + Me = Magic I never believed in until now.",
+          hashtags: ["#couplegoals", "#lovevibes", "#togetherforever"],
         },
         {
-          text: "Home is wherever I'm with you.",
-          hashtags: ["#love", "#home", "#together"],
+          text: "Falling in love with you was the best kind of accident.",
+          hashtags: ["#lovehappens", "#romantic", "#unexpectedjoy"],
         },
         {
-          text: "I fall a little more in love with you every day.",
-          hashtags: ["#love", "#growinglove", "#romance"],
+          text: "Your name feels like poetry on my lips.",
+          hashtags: ["#romanticvibes", "#loveinwords", "#sweetlines"],
         },
         {
-          text: "You're my sunshine on a cloudy day.",
-          hashtags: ["#love", "#happiness", "#myworld"],
+          text: "Every moment with you feels like a soft song playing in the background.",
+          hashtags: ["#romance", "#togetherness", "#melodyoflove"],
         },
         {
-          text: "Just the two of us.",
-          hashtags: ["#couple", "#love", "#intimacy"],
+          text: "Real love is comfort, not chaos.",
+          hashtags: ["#peacefulrelationships", "#love", "#reallove"],
         },
         {
-          text: "Life is better with you by my side.",
-          hashtags: ["#love", "#bettertogether", "#life"],
+          text: "You’re my today and all of my tomorrows.",
+          hashtags: ["#foreverlove", "#romanticstatus", "#commitment"],
         },
         {
-          text: "My heart beats for you.",
-          hashtags: ["#love", "#affection", "#heart"],
-        },
-      ],
-      Romantic: [
-        {
-          text: "Love you to the moon and never back. 🌙",
-          hashtags: ["#romantic", "#love", "#moon", "#heart"],
-        },
-        {
-          text: "In your arms is my happy place. ❤️",
-          hashtags: ["#romance", "#love", "#happyplace"],
-        },
-        {
-          text: "You are my dream come true.",
-          hashtags: ["#romantic", "#love", "#dreams"],
-        },
-        {
-          text: "With you, every moment is a fairytale.",
-          hashtags: ["#romance", "#love", "#fairytale"],
-        },
-        {
-          text: "You're the poetry I never knew how to write.",
-          hashtags: ["#romantic", "#love", "#poetry"],
-        },
-        {
-          text: "My love for you is a journey, starting at forever and ending at never.",
-          hashtags: ["#romantic", "#love", "#eternity"],
-        },
-        {
-          text: "You make my heart skip a beat.",
-          hashtags: ["#romantic", "#love", "#excitement"],
-        },
-        {
-          text: "You're the melody to my heart's song.",
-          hashtags: ["#romantic", "#love", "#music"],
-        },
-        {
-          text: "Everywhere I look, I am reminded of your love. You are my universe.",
-          hashtags: ["#romantic", "#love", "#universe"],
-        },
-        {
-          text: "You are the reason I believe in love.",
-          hashtags: ["#romantic", "#love", "#belief"],
+          text: "In a world full of temporary things, you're my constant.",
+          hashtags: ["#loyalty", "#truelove", "#romanticwords"],
         },
       ],
-      "Self Love": [
+      "Romantic Mood": [
         {
-          text: "Fall in love with taking care of yourself.",
-          hashtags: ["#selflove", "#care", "#love", "#mentalhealth"],
+          text: "I look at you and see the rest of my life.",
+          hashtags: ["#romanticmood", "#lovequotes", "#relationshipgoals"],
         },
         {
-          text: "You owe yourself the love you so freely give to others.",
-          hashtags: ["#selflove", "#love", "#motivation"],
+          text: "Your smile is my favorite notification.",
+          hashtags: ["#cutelove", "#romance", "#feelgood"],
         },
         {
-          text: "Be your own kind of beautiful.",
-          hashtags: ["#selflove", "#beauty", "#unique"],
+          text: "Late-night talks and forehead kisses—my love language.",
+          hashtags: ["#romantic", "#deepfeelings", "#lovevibes"],
         },
         {
-          text: "The most important relationship is the one you have with yourself.",
-          hashtags: ["#selflove", "#relationshipgoals", "#innerpeace"],
+          text: "Every heartbeat whispers your name.",
+          hashtags: ["#poeticlove", "#romanticmood", "#inlove"],
         },
         {
-          text: "Treat yourself the way you treat your best friend.",
-          hashtags: ["#selflove", "#kindness", "#compassion"],
+          text: "Being yours feels like everything finally makes sense.",
+          hashtags: ["#soulconnection", "#truelove", "#romance"],
         },
         {
-          text: "I am enough.",
-          hashtags: ["#selflove", "#affirmation", "#confidence"],
+          text: "Let’s grow old together, with WiFi and unconditional love.",
+          hashtags: ["#funnyromantic", "#love", "#forever"],
         },
         {
-          text: "Embrace your imperfections, they make you unique.",
-          hashtags: ["#selflove", "#imperfectionisbeauty", "#unique"],
+          text: "You're my safe space in a loud world.",
+          hashtags: ["#romanticwords", "#comfort", "#emotionalbond"],
         },
         {
-          text: "Invest in yourself. It's the best investment you'll ever make.",
-          hashtags: ["#selflove", "#growth", "#personaldevelopment"],
+          text: "You’re the piece of peace I didn’t know I needed.",
+          hashtags: ["#peaceinlove", "#romance", "#meaningfullove"],
         },
         {
-          text: "Celebrate your small victories.",
-          hashtags: ["#selflove", "#achievement", "#motivation"],
+          text: "The way you look at me makes ordinary days magical.",
+          hashtags: ["#romanticfeels", "#lovevibes", "#everydaymagic"],
         },
         {
-          text: "Your worth is not defined by others.",
-          hashtags: ["#selflove", "#selfworth", "#independent"],
+          text: "Love is waking up and choosing you—again and again.",
+          hashtags: ["#commitment", "#dailychoice", "#relationshipquotes"],
         },
       ],
     },
   },
+
   {
     title: "🌍 Travel",
+    intro:
+      "Let your captions explore the world with this Travel status collection. Whether you're chasing sunsets, hiking mountains, or getting lost in new cities, these lines bring out the spirit of wanderlust and the thrill of adventure. Perfect for travel reels, Instagram stories, or sharing your latest journey with the world.",
     subcategories: {
       Wanderlust: [
         {
-          text: "Catching flights, not feelings ✈️",
-          hashtags: ["#travel", "#wanderlust", "#adventure"],
+          text: "I haven’t been everywhere, but it’s on my list. ✈️",
+          hashtags: ["#wanderlust", "#travelgoals", "#bucketlist"],
         },
         {
-          text: "Adventure found me 🌍",
-          hashtags: ["#adventure", "#travel", "#explore"],
+          text: "My favorite direction is anywhere that leads to the unknown.",
+          hashtags: ["#travelquotes", "#exploremore", "#openroad"],
         },
         {
-          text: "Not all who wander are lost.",
-          hashtags: ["#wanderlust", "#travel", "#inspiration"],
+          text: "Passport in one hand, confidence in the other.",
+          hashtags: ["#travelvibes", "#passportready", "#globetrotting"],
         },
         {
-          text: "The world is a book, and those who do not travel read only one page.",
-          hashtags: ["#travelquotes", "#wanderlust", "#exploretheworld"],
+          text: "Catching flights, not feelings.",
+          hashtags: ["#wanderlust", "#travelmore", "#flightmode"],
         },
         {
-          text: "Collect moments, not things.",
-          hashtags: ["#travel", "#experiences", "#memories"],
+          text: "Sunsets are proof that no matter what happens, every day can end beautifully.",
+          hashtags: ["#sunsetlover", "#travelmoments", "#peacefulplaces"],
         },
         {
-          text: "Let's get lost.",
-          hashtags: ["#travel", "#adventuretime", "#explore"],
+          text: "Collecting memories, not things.",
+          hashtags: ["#travelmemories", "#experiencelife", "#minimaltravel"],
         },
         {
-          text: "Travel far enough, you meet yourself.",
-          hashtags: ["#travel", "#selfdiscovery", "#journey"],
+          text: "Life's too short to stay in one place.",
+          hashtags: ["#neverstopexploring", "#travelbug", "#wanderfreely"],
         },
         {
-          text: "My favorite thing to do is go where I've never been.",
-          hashtags: ["#travelgram", "#explorenewplaces", "#wanderer"],
+          text: "The world is wide and I want to roam all of it.",
+          hashtags: ["#globetrotter", "#travelquotes", "#dreambigger"],
         },
         {
-          text: "Life's short, buy the plane ticket.",
-          hashtags: ["#travel", "#yolo", "#adventureawaits"],
+          text: "Find me where the wild things wander.",
+          hashtags: ["#intothewild", "#travelvibes", "#freedom"],
         },
         {
-          text: "Making memories around the world.",
-          hashtags: ["#travelphotography", "#worldtraveler", "#traveladdict"],
-        },
-      ],
-      Beach: [
-        {
-          text: "Salty air, sun-kissed hair 🏖️",
-          hashtags: ["#beach", "#summer", "#travel", "#sun"],
-        },
-        {
-          text: "Sandy toes, sunkissed nose ☀️",
-          hashtags: ["#beachlife", "#sun", "#travel", "#summer"],
-        },
-        {
-          text: "Vitamin Sea.",
-          hashtags: ["#beach", "#ocean", "#relax"],
-        },
-        {
-          text: "Good times and tan lines.",
-          hashtags: ["#beachvibes", "#summerdays", "#tanning"],
-        },
-        {
-          text: "Life's a beach, enjoy the waves.",
-          hashtags: ["#beachlover", "#oceanlife", "#waves"],
-        },
-        {
-          text: "Paradise found.",
-          hashtags: ["#beachparadise", "#tropical", "#getaway"],
-        },
-        {
-          text: "Happiness comes in waves.",
-          hashtags: ["#beachhappiness", "#oceantherapy", "#goodvibes"],
-        },
-        {
-          text: "Seas the day!",
-          hashtags: ["#beachday", "#carpediem", "#oceanbreeze"],
-        },
-        {
-          text: "I need some beach therapy.",
-          hashtags: ["#beachtime", "#relaxation", "#stressfree"],
-        },
-        {
-          text: "The beach is calling and I must go.",
-          hashtags: ["#beachcalling", "#travelgram", "#oceanlover"],
+          text: "Not all classrooms have four walls.",
+          hashtags: ["#learnbytraveling", "#travelinsights", "#lifelessons"],
         },
       ],
-      Mountains: [
+      "Adventure Vibes": [
         {
-          text: "Climb mountains not so the world can see you, but so you can see the world.",
-          hashtags: ["#mountains", "#nature", "#travel", "#adventure"],
+          text: "Adventure fills your soul, not your pockets.",
+          hashtags: ["#adventuretime", "#traveldeeper", "#soulfuljourney"],
         },
         {
-          text: "Find me where the wild things are.",
-          hashtags: ["#mountains", "#wild", "#travel", "#explore"],
+          text: "Take only memories, leave only footprints.",
+          hashtags: ["#ecotravel", "#responsibletravel", "#exploreearth"],
         },
         {
-          text: "The mountains are calling and I must go.",
-          hashtags: ["#mountainlife", "#naturelover", "#hiking"],
+          text: "Let’s find some beautiful places to get lost.",
+          hashtags: ["#getlost", "#hiddenplaces", "#wanderlust"],
         },
         {
-          text: "Peak performance.",
-          hashtags: ["#mountaintop", "#adventuretime", "#views"],
+          text: "Nature is the best therapy.",
+          hashtags: ["#traveltherapy", "#intothewild", "#naturelover"],
         },
         {
-          text: "Fresh air and mountain views.",
-          hashtags: ["#mountainview", "#naturephotography", "#outdoors"],
+          text: "Jobs fill your pocket, but adventures fill your soul.",
+          hashtags: ["#adventurequotes", "#travelwisdom", "#lifebeyondwork"],
         },
         {
-          text: "Life is better in the mountains.",
-          hashtags: ["#mountainlove", "#getaway", "#peaceful"],
+          text: "If it scares you, it might be a good thing to try.",
+          hashtags: ["#adventureawaits", "#stepout", "#liveboldly"],
         },
         {
-          text: "Conquering one peak at a time.",
-          hashtags: ["#mountainclimbing", "#challenge", "#achievement"],
+          text: "Travel isn’t always pretty, but it teaches you who you are.",
+          hashtags: ["#realtravel", "#deeptravel", "#selfdiscovery"],
+        },
+        {
+          text: "Mountains are calling—and I must go.",
+          hashtags: ["#mountainlife", "#adventuretime", "#travelmore"],
+        },
+        {
+          text: "You don’t need magic to disappear. All you need is a destination.",
+          hashtags: ["#escapetheordinary", "#wander", "#findyourplace"],
+        },
+        {
+          text: "Live life with no excuses, travel with no regrets.",
+          hashtags: ["#noregrets", "#travelquotes", "#adventurevibes"],
         },
       ],
     },
@@ -852,587 +489,803 @@ export const instaCategories = [
 export const whatsAppCategories = [
   {
     title: "🎉 Birthday Wishes",
+    paragraph:
+      "Birthdays aren't just about cakes and candles—they're milestones that remind us of love, growth, and shared memories. In this section, you’ll discover uniquely crafted birthday wishes for every special person in your life—be it your best friend, mother, father, or child. These messages go beyond clichés, offering heartfelt, humorous, and personalized expressions to make someone’s big day unforgettable. Whether you’re sending a quick WhatsApp text or writing a touching Instagram story, our curated wishes are made to resonate and spread genuine joy.",
     subcategories: {
-      "For Best Friend": [
-        "Happy Birthday to my partner in crime — may our laughs never end! 😄🎉",
-        "You’re more than a friend — you’re my chosen family. Love you always! 💕",
-        "Cheers to another year of crazy adventures with my favorite human! 🥂",
-        "Life’s way better with you in it — thanks for being you. Happy B’day! 🎈",
-        "Through thick and thin, you’ve been my rock. Today, we celebrate you! 🪨❤️",
-        "Best friends like you don’t come with a price — you’re priceless! 💎",
-        "From secrets to memories, we’ve shared it all — and I wouldn’t change a thing. 🥳",
-        "Your happiness means the world to me. Let’s make today epic! 🌍🎉",
-        "Growing older is cooler with you by my side. Happy Birthday, soul twin! 🔥",
-        "May your dreams soar as high as our friendship has flown. 🎂🕊️",
-      ],
-      "For Mother": [
-        "Happy Birthday to the heart of our home — love you always, Mom! 💖🏡",
-        "Your love is my forever warmth. Have the most beautiful birthday, Maa! 🌸🎂",
-        "Thanks for every hug, meal, and word of wisdom. Today is all yours! 🫶🎉",
-        "To the queen of care and comfort — you deserve the world today. 👑🌍",
-        "You make life softer, warmer, and sweeter. Happy Birthday, Mom! 🍰💐",
-        "Every moment with you is a blessing. Celebrate with joy, Mumma! 🥳🙏",
-        "Wishing peace, love, and a little pampering to the one who gives it all. 🧘‍♀️💝",
-        "Your smile lights up my life. Shine brighter than ever today! ✨🌺",
-        "You gave me everything without asking. Today, I give you all my love. 🎁❤️",
-        "Mothers like you are rare and precious — Happy Birthday to the best! 💎🎈",
-      ],
-      "For Father": [
-        "Happy Birthday to the man who taught me strength and kindness. 💪❤️",
-        "Your wisdom is my guiding light — have a wonderful birthday, Dad! 🎂✨",
-        "Thanks for always being my superhero, even without a cape. 🦸‍♂️🎉",
-        "You make fatherhood look effortless — love you forever, Dad! 🧡",
-        "May your birthday be filled with peace, pride, and a little mischief. 😄",
-        "To the one who gave me roots and wings — Happy Birthday, Papa! 🌳🕊️",
-        "Every lesson you taught me made me who I am. Have a beautiful day! 📘🌟",
-        "Dad, you’re my anchor and my inspiration. Celebrate big today! ⚓🎁",
-        "Here’s to your strength, love, and timeless dad jokes! 😂🎈",
-        "On your special day, I just want to say: You’re my greatest role model. 👏💙",
-      ],
-      "For Child(Son/Daughter)": [
-        "Happy Birthday, little star! Keep shining bright and chasing dreams. 🌟🎂",
-        "Wishing you a magical day full of laughter, surprises, and cake! 🎉🧁",
-        "To the cutest smile and the brightest spirit — Happy Birthday, champ! 😄🎈",
-        "May your day be filled with balloons, giggles, and lots of love! 🎈💖",
-        "Watching you grow is the greatest joy. Have a fun-tastic birthday! 🛝🎊",
-        "Big hugs and even bigger wishes for the birthday superstar! 🌟🤗",
-        "You light up every room, little one. Today, we celebrate your sparkle! ✨🎁",
-        "Keep dreaming, keep exploring, keep being amazing. Happy Birthday! 🚀🎂",
-        "A year older, a whole lot cuter! Wishing you endless fun today! 🧸🍰",
-        "To our tiny bundle of joy — may your day be as sweet as you! 🍬🎉",
-      ],
+      "For Best Friend": {
+        paragraph:
+          "True friendship deserves more than a basic “Happy Birthday.” It’s about recognizing the laughs you’ve shared, the hard times you’ve overcome together, and the inside jokes that make life sweet. This section offers thoughtful, humorous, and sentimental wishes tailored especially for that irreplaceable best friend who makes every year better.",
+        messages: [
+          "Happy Birthday to the one who’s been with me through every high and low, always laughing louder than anyone else at my dumb jokes 😄🎉. Life would be dull without you.",
+          "You’re not just a friend — you’re the one who’s seen every version of me and stayed. Wishing you a birthday as genuine and beautiful as your heart 💖🎂.",
+          "To my favorite adventure buddy: here’s to another year of spontaneous plans, inside jokes, and unforgettable chaos 🎒😂. Let’s never grow boring!",
+          "Some people walk into your life and quietly become your everything. Thanks for being that person for me 🌟. Happy Birthday — you deserve the world!",
+          "If friendship had a face, it would look a lot like you — kind, hilarious, and absolutely irreplaceable 💫👯‍♂️. Wishing you all the joy you bring to others.",
+          "No amount of distance or time can change what we share. You’ve been my anchor in every storm, and today, we celebrate *you* ⚓❤️.",
+          "We’ve cried, laughed, ranted, and healed together — and honestly, I wouldn’t trade our friendship for anything 💌🥲. Happy Birthday to the realest one I know.",
+          "I hope this year brings you peace, passion, and the same kind of comfort you’ve always given me ✨💛. You’re more than a best friend — you’re family.",
+          "Happy Birthday to the soul I feel most myself with 🎂💞. If I had to go through life all over again, I’d still choose you in every timeline.",
+          "We’ve built a friendship on trust, madness, loyalty, and way too many snacks 🍕😜💬. Here’s to more years of that sweet, chaotic bond!",
+        ],
+      },
+      "For Mother": {
+        paragraph:
+          "A mother’s love is the purest gift, and her birthday is a chance to give back a fraction of the warmth she gives daily. Here you’ll find words that capture gratitude, affection, and admiration—perfect for sending your mom a message that touches the heart and honors her role in your life.",
+        messages: [
+          "Happy Birthday to the heart and soul of our home, Mom. Your love has shaped my world, and today, I just want to say thank you for everything. 💖🏠",
+
+          "Maa, your love is like a cozy blanket on a cold day — always there, always comforting. Wishing you a birthday filled with warmth, joy, and endless smiles! 🌸🎂",
+
+          "Thank you for every silent sacrifice, every comforting hug, and every meal made with love. Today, we celebrate *you* — the one who makes life beautiful. 🫶🎉",
+
+          "To the woman who taught me how to love, forgive, and grow — Happy Birthday, Mom. May this day bring you as much peace as you’ve brought to all of us. 👑🌍",
+
+          "You make life feel softer, more meaningful, and full of love. I hope your birthday is as sweet and thoughtful as you are. Love you endlessly, Mom. 🍰💐",
+
+          "Each moment with you is a gift I treasure. On your birthday, I pray for your happiness, health, and dreams to come true. Celebrate yourself today, Mumma! 🥳🙏",
+
+          "To the one who always puts others first — may today be *your* turn to be pampered, loved, and showered with joy. Happy Birthday, Mom! 🧘‍♀️💝",
+
+          "Your smile has always been my safe place. May it shine even brighter today and forever. Thank you for being my guiding light, Mom. ✨🌺",
+
+          "You gave me strength without ever asking for anything in return. Today, I offer you my love, gratitude, and all the happiness I can give. 🎁❤️",
+
+          "Mothers like you are rare — patient, kind, and endlessly loving. I feel blessed every day to call you mine. Happy Birthday to the most precious soul! 💎🎈",
+        ],
+      },
+      "For Father": {
+        paragraph:
+          "Fathers are often the silent pillars behind our strength. On his birthday, a few words that show appreciation and love can mean the world. Whether you want to express your respect, share a memory, or simply make him smile, these wishes help you speak from the heart.",
+        messages: [
+          "Happy Birthday to the man who taught me strength, patience, and the value of hard work. Dad, your quiet love means the world to me. Enjoy your special day! 🎉❤️",
+
+          "You’ve always been my role model — the one I look up to for guidance, wisdom, and courage. Wishing you a day filled with all the peace and happiness you deserve, Papa. 🎂👑",
+
+          "Thank you for every lesson, every story, and every moment you stood by me without saying a word. Happy Birthday, Dad — you are my greatest hero. 🛠️💖",
+
+          "Your words may have been few, but your actions always spoke volumes. On your birthday, I hope you feel proud of the incredible father and man you are. 🎁👨‍👧",
+
+          "To the man who believed in me even when I doubted myself — thank you for always being there, Dad. May your birthday be as strong and full of life as you are. 🏆🎊",
+
+          "Happy Birthday to the pillar of our family. Your presence is our strength, your love is our foundation. Today is yours — relax, smile, and enjoy every moment! 🧁🏡",
+
+          "Dad, your advice has shaped my life in the best ways. I may not say it often, but I’m beyond grateful for everything you’ve done. Cheers to you and your journey ahead! 🥂📘",
+
+          "From childhood to now, you’ve been my biggest support system. I hope your birthday brings back all the joy you’ve given me over the years. Love you forever, Papa. 🎈🫶",
+
+          "Behind your tough exterior is the kindest heart I know. Happy Birthday, Dad. May this year reward you with everything your heart quietly wished for. 💫🎉",
+
+          "Fathers like you make the world a better place — strong yet soft, strict yet loving. Happy Birthday to the man I’ll always look up to. 🧓💎",
+        ],
+      },
+      "For Child(Son/Daughter)": {
+        paragraph:
+          "Children light up our world with joy, laughter, and boundless energy. This section offers cheerful and imaginative birthday wishes that are age-appropriate and full of love—whether you're a parent looking for something magical or emotional to write for your son or daughter.",
+
+        messages: [
+          "Happy Birthday, my little sunshine! Watching you grow has been the greatest gift of my life. I hope your day is filled with giggles, cake, and everything that makes you smile. 🎂🌈",
+
+          "To my precious child, you make every single day brighter just by being in it. On your birthday, I wish you all the magic, wonder, and love this world has to offer. 🎉🧸",
+
+          "No matter how big you grow, you'll always be my baby. Happy Birthday, sweetheart. Keep dreaming big, laughing loud, and spreading your beautiful light. 🌟🎁",
+
+          "Happy Birthday to the reason I believe in miracles. You've brought meaning and joy into my life in a way words can't explain. Love you more than anything! ❤️🎈",
+
+          "Watching you become your own little person has been the greatest adventure. I'm proud of who you are and excited for who you’ll become. Have the best birthday ever, my love! 🎊👶",
+
+          "From your first steps to your bright smile today — every moment with you is a blessing. Happy Birthday, my star. Shine even brighter this year! ✨🎂",
+
+          "You may be small, but your heart is huge and your laughter fills our home. Wishing you endless joy and dreams as big as the sky. Happy Birthday, kiddo! 🥳🚀",
+
+          "Today is all about you, my sweet child! May your birthday be as joyful and beautiful as the love you bring into our lives every day. 💖🍭",
+
+          "My world became better the moment you arrived. Happy Birthday, my angel. Never forget how deeply you are loved — always and forever. 🌼🎁",
+
+          "The love between a parent and child is forever — and today, we celebrate the amazing person you're becoming. Happy Birthday to my pride and joy! 💝👧👦",
+        ],
+      },
     },
   },
   {
     title: "💍 Marriage Anniversary",
+    paragraph:
+      "Marriage anniversaries are heartfelt reminders of love, trust, and lifelong companionship. Whether it’s a couple’s first or fiftieth year together, each anniversary is a celebration of the bond they’ve nurtured over time. This section offers carefully crafted messages that reflect the joy, romance, and depth that define a strong and loving marriage.",
     subcategories: {
-      Romantic: [
-        "Every love story is beautiful, but ours is my favorite. Happy Anniversary, my love.",
-        "With you, every day is a celebration of love and happiness. Here's to many more anniversaries together.",
-        "You are my today and all of my tomorrows. Happy Anniversary, sweetheart.",
-        "To the love of my life, thank you for making every moment magical. Happy Anniversary!",
-        "Our journey together is a beautiful adventure. Happy Anniversary to my perfect partner.",
-        "Falling in love with you was the easiest thing I've ever done. Staying in love with you is even easier. Happy Anniversary!",
-        "You complete me in every way. Here's to another year of love and laughter. Happy Anniversary!",
-        "Your love is the light that brightens my days. Happy Anniversary, my dearest.",
-        "Together, we've built a life filled with love and joy. Happy Anniversary to us!",
-        "Every day with you is a blessing. Thank you for being my everything. Happy Anniversary!",
-      ],
-      "Milestone Celebrations": [
-        "Happy 1st Anniversary! May this be the first of many more years of happiness.",
-        "Congratulations on your 5th Anniversary! Your love continues to inspire us all.",
-        "A decade of love and memories. Happy 10th Anniversary!",
-        "Celebrating 15 years of togetherness and unwavering love. Happy Anniversary!",
-        "20 years of shared dreams and cherished moments. Happy Anniversary!",
-        "25 years of love and commitment. Happy Silver Jubilee!",
-        "30 years of partnership and joy. Happy Anniversary!",
-        "40 years of enduring love. Happy Ruby Anniversary!",
-        "50 years of togetherness. Happy Golden Anniversary!",
-        "60 years of unwavering love. Happy Diamond Anniversary!",
-      ],
-      Funny: [
-        "Happy Anniversary! Here's to another year of laughing at our own jokes.",
-        "Marriage means commitment. Of course, so does insanity. Happy Anniversary!",
-        "You're the only one I want to annoy for the rest of my life. Happy Anniversary!",
-        "Another year of tolerating each other. Just kidding! Happy Anniversary!",
-        "Happy Anniversary! Let's keep making all our friends jealous of our perfect marriage.",
-        "Marriage is a workshop where the husband works and the wife shops. Happy Anniversary!",
-        "Congrats on surviving another year together! Happy Anniversary!",
-        "Happy Anniversary! Thanks for always being my partner in crime.",
-        "They said we couldn't do it, but here we are! Happy Anniversary!",
-        "Cheers to another year of pretending to love each other. Happy Anniversary!",
-      ],
-      "Religious/Spiritual": [
-        "May God continue to bless your marriage with love and joy. Happy Anniversary!",
-        "Wishing you a blessed anniversary filled with God's grace and love.",
-        "Happy Anniversary! May your love be as strong as your faith.",
-        "May your marriage be filled with love and God's blessings. Happy Anniversary!",
-        "Happy Anniversary! Your love is a testament to God's blessings.",
-        "Wishing you a joyous anniversary filled with God's love and grace.",
-        "Happy Anniversary! May your journey together be blessed with love and faith.",
-        "May the Lord continue to guide and bless your union. Happy Anniversary!",
-        "Happy Anniversary! Your love story is a beautiful example of God's work.",
-        "May your marriage continue to be a reflection of God's love. Happy Anniversary!",
-      ],
-      "For Parents": [
-        "Happy Anniversary, Mom and Dad! Your love is the foundation of our family.",
-        "To my wonderful parents, happy anniversary. Your love story is our favorite.",
-        "Happy Anniversary to the best parents ever! Wishing you many more years of love.",
-        "Your love and commitment continue to inspire us all. Happy Anniversary!",
-        "Happy Anniversary, Mom and Dad! Thank you for teaching us what real love looks like.",
-        "To the couple who set the bar high—Happy Anniversary!",
-        "Your love story is our favorite bedtime tale. Congratulations on your anniversary!",
-        "Happy Anniversary to the couple who proves that true love lasts forever.",
-        "Wishing you another year of happiness and love. Happy Anniversary, dear parents!",
-        "Happy Anniversary to my amazing parents! Your love is a shining example for us all.",
-      ],
-      "For Friends": [
-        "Happy Anniversary to a wonderful couple! May your love continue to grow stronger each day.",
-        "Wishing you both a lifetime of happiness and love. Happy Anniversary, dear friends!",
-        "Cheers to another year of love and friendship. Happy Anniversary to my favorite couple!",
-        "Happy Anniversary! Your love is an inspiration to us all.",
-        "To my amazing friends, happy anniversary! May your love story never end.",
-        "Happy Anniversary to the couple who shows us what true love looks like.",
-        "Wishing you another year of happiness and love. Happy Anniversary, friends!",
-        "Happy Anniversary to our favorite lovebirds. Here's to many more years of happiness!",
-        "Watching your love grow is a joy. Wishing you the best on this special day!",
-        "Cheers to the couple who gives us relationship goals. Happy Anniversary!",
-      ],
-      "For Social Media": [
-        "Happy Anniversary to the love of my life! ❤️ #LoveForever",
-        "Celebrating another year of love and happiness! Happy Anniversary, my dear. 💕",
-        "To many more years of love and laughter. Happy Anniversary! 🎉",
-        "Happy Anniversary to my partner in crime and in love. 🥂",
-        "Another year, another adventure. Happy Anniversary, love! 🌹",
-        "Happy Anniversary to us! Here's to forever. 💖",
-        "Cheers to our love story! Happy Anniversary, babe. 😘",
-        "Happy Anniversary! Every day with you is a blessing. 🌟",
-        "Forever and always, my love. Happy Anniversary! 💑",
-        "Celebrating our journey together. Happy Anniversary! 🥰",
-      ],
-      "For Grandparents": [
-        "Happy Anniversary to our wonderful grandparents! Your love is timeless.",
-        "To our amazing grandparents: your love is the foundation of our family.",
-        "Sixty years of love, laughter, and memories. You inspire us all!",
-        "Your love is a legacy we're proud to inherit. Happy Anniversary!",
-        "Your marriage is proof that forever love is real. Happy Anniversary!",
-        "Happy Anniversary to the couple who defines true love.",
-        "Your journey together is a beautiful example of commitment. Happy Anniversary!",
-        "Wishing you many more years of happiness and love. Happy Anniversary, Grandma and Grandpa!",
-        "Your love story continues to inspire us every day. Happy Anniversary!",
-        "Happy Anniversary to the most loving grandparents. Your bond is unbreakable.",
-      ],
-      "For Siblings": [
-        "Happy Anniversary to my dear brother/sister and sister-in-law/brother-in-law! Wishing you endless love and happiness.",
-        "To my wonderful sibling and their amazing partner, happy anniversary!",
-        "Wishing you both a lifetime of love and laughter. Happy Anniversary!",
-        "Happy Anniversary to the couple who makes love look easy.",
-        "Your love story is one for the books. Happy Anniversary!",
-        "Cheers to another year of love and togetherness. Happy Anniversary!",
-        "Happy Anniversary to my favorite couple! May your love continue to grow.",
-        "Wishing you both a beautiful anniversary and many more to come.",
-        "Your bond is truly special. Happy Anniversary!",
-        "Happy Anniversary to the perfect pair! Love you both.",
-      ],
-      "For Couple": [
-        "Happy Anniversary to a beautiful couple! Your love is an inspiration.",
-        "Wishing you both a day filled with love and joy. Happy Anniversary!",
-        "Your journey together is a testament to true love. Happy Anniversary!",
-        "Happy Anniversary to the couple who defines relationship goals.",
-        "May your love continue to blossom. Happy Anniversary!",
-        "Cheers to another year of love and happiness. Happy Anniversary!",
-        "Your love story is truly magical. Happy Anniversary!",
-        "Wishing you both endless love and laughter. Happy Anniversary!",
-        "Happy Anniversary to the couple who makes love look effortless.",
-        "May your bond grow stronger with each passing year. Happy Anniversary!",
-      ],
+      Romantic: {
+        paragraph:
+          "Romantic anniversary wishes express the deep love and affection shared between partners. These heartfelt messages are perfect for letting your spouse know just how much they mean to you — whether it’s through a poetic note or a simple declaration of love.",
+
+        messages: [
+          "Every day with you feels like a new page in our love story. Happy Anniversary, my love — here’s to writing many more unforgettable chapters together. 📖❤️",
+
+          "Through all the ups and downs, my heart still chooses you — again and again. Happy Anniversary to the one who completes me. 💍💑",
+
+          "You’re not just my spouse; you’re my best friend, my safe space, and the love of my life. Cheers to the years we’ve shared and the lifetime ahead. 🥂💕",
+
+          "The world may change, but my love for you only grows stronger. Happy Anniversary to the one who makes my heart feel at home. 🌍💖",
+
+          "You’ve turned ordinary days into beautiful memories, and our life together into a dream come true. Thank you for being mine. Happy Anniversary, sweetheart! 🌹✨",
+
+          "Even after all this time, your smile still melts my heart, and your love still gives me butterflies. Here’s to forever with you. Happy Anniversary! 🦋💫",
+
+          "Our journey has been full of laughter, lessons, and late-night talks — and I wouldn't trade a second of it. Happy Anniversary, my love. 🛤️❤️",
+
+          "You're the reason my life feels like a beautiful song — filled with harmony, rhythm, and heart. Happy Anniversary to my one true melody. 🎶💘",
+
+          "Loving you is the easiest thing I’ve ever done, and being loved by you is the greatest blessing of my life. Happy Anniversary, my forever person. 👫🌟",
+
+          "From that first spark to the fire we still share today — our love has only grown deeper with time. Happy Anniversary, and thank you for being my always. 🔥💞",
+        ],
+      },
+      "Milestone Celebrations": {
+        paragraph:
+          "Each marriage milestone — from the first year to the golden jubilee — marks a journey filled with memories, challenges, and triumphs. These wishes honor those major milestones with words that reflect the beauty and strength of long-term commitment.",
+        messages: [
+          "Congratulations on reaching this incredible milestone! Your journey of [X] years together is a beautiful testament to love, patience, and unwavering commitment. Wishing you many more joyous years ahead! 🥂🎉",
+
+          "Happy [X]th Anniversary! It’s inspiring to see a love that has stood the test of time, growing stronger with every challenge and triumph. May your bond continue to deepen and bring you endless happiness. 💖🌟",
+
+          "Celebrating [X] years of togetherness — a journey filled with memories, laughter, and shared dreams. Here’s to the beautiful story you’ve written and the many chapters yet to come. 📖❤️",
+
+          "A milestone like this isn’t just about years; it’s about the countless moments of love, support, and understanding you’ve shared. Happy [X]th Anniversary to a truly remarkable couple! 🎊💞",
+
+          "Wishing you a spectacular [X]th anniversary! Your enduring love is a shining example to all, reminding us what true partnership means. May your days ahead be filled with continued joy and peace. 🌹✨",
+
+          "Through thick and thin, you’ve stood together with grace and strength. Happy [X]th Anniversary! Your story inspires hope and love for generations to come. 🌟🏆",
+
+          "Celebrating this special milestone with you is a joy. May your love continue to be a source of warmth and inspiration for everyone around you. Here’s to many more wonderful years! 🥰🎂",
+
+          "Happy [X] years of marriage! Each year represents a chapter of your beautiful journey together, full of love, learning, and growth. Wishing you endless blessings today and always. 🌸📅",
+
+          "The love you share after [X] years is rare and precious. May your anniversary be filled with laughter, cherished memories, and dreams for the future. Congratulations on this amazing milestone! 🎉💑",
+
+          "To the couple who proves that true love only gets better with time — Happy [X]th Anniversary! May your bond remain strong and your hearts forever connected. ❤️🕊️",
+        ],
+      },
+      Funny: {
+        paragraph:
+          "Laughter is a vital ingredient in every successful marriage. These humorous anniversary wishes are lighthearted and playful — perfect for couples who love to share a smile and keep their relationship fun and cheerful.",
+
+        messages: [
+          "Happy Anniversary! Here’s to another year of pretending to listen to each other. Spoiler alert: I’m still not listening! 😄🎉",
+
+          "Congrats on surviving another year of each other’s quirks and weird habits. You deserve a medal — or at least some cake! 🎂🏅",
+
+          "Marriage is about give and take… you give the orders, and I take them! Happy Anniversary to my favorite boss. 😜💼",
+
+          "Cheers to the one who still puts up with my nonsense after all these years. Let’s keep confusing everyone together for many more! 🥳🤪",
+
+          "Happy Anniversary! We go together like copy and paste — sometimes a little glitchy, but always a perfect match. 💻❤️",
+
+          "After all these years, you’re still my favorite weirdo. Here’s to growing old and silly together! 🎉👵🧓",
+
+          "Marriage means ‘I love you even when you steal the covers.’ Happy Anniversary to my blanket thief! 🛏️😂",
+
+          "We’ve been through thick and thin — mostly because I can never find my keys. Thanks for sticking around anyway! 🔑🤣",
+
+          "They say marriage is a workshop — where the husband works and the wife shops! Happy Anniversary to my favorite shopper. 🛒💸",
+
+          "Another year, another reason to celebrate not killing each other! Happy Anniversary to the one who makes life fun and unpredictable. 🎉🔥",
+        ],
+      },
+      "Religious/Spiritual": {
+        paragraph:
+          "Faith can be a guiding light in a strong marriage. These religious and spiritual anniversary messages offer blessings, gratitude, and divine wishes that celebrate not just the love between two people, but also the grace that supports their union",
+        messages: [
+          "Happy Anniversary! May God’s blessings continue to guide your marriage, filling your lives with love, peace, and endless grace. 🙏❤️",
+
+          "Wishing you a blessed anniversary filled with faith, hope, and love. May your union grow stronger under God’s watchful care. ✨🕊️",
+
+          "May the Lord bless your marriage with patience, understanding, and unshakable love. Happy Anniversary to a couple truly made in His image. 🌿🙏",
+
+          "As you celebrate another year together, may God’s light shine upon your path and lead you to greater joy and unity. Happy Anniversary! 🌟✝️",
+
+          "Through every challenge and triumph, may your faith remain your foundation and your love be your guide. Wishing you a joyous and blessed anniversary. 📖💞",
+
+          "Happy Anniversary! May the grace of God fill your hearts with compassion and your home with happiness today and always. 🌸🛐",
+
+          "May God’s divine love continue to nurture your marriage and bless you with many more years of harmony and bliss. Congratulations on your anniversary! 🙌💖",
+
+          "On this special day, may you feel the presence of God’s love surrounding you and strengthening your bond. Happy Anniversary to a beautiful couple! 🌹🙏",
+
+          "As you walk this journey together, may faith and prayer keep your hearts connected in love and devotion. Wishing you a blessed and happy anniversary. 🌼✝️",
+
+          "Happy Anniversary! May the Lord’s blessings be upon you, guiding your marriage with wisdom, joy, and everlasting love. Amen. 🌟❤️",
+        ],
+      },
+      "For Parents": {
+        paragraph:
+          "Our parents’ marriage is often the first example of true love we witness. These anniversary messages are a warm tribute to the love, sacrifice, and strength shown by mom and dad throughout their years together.",
+        messages: [
+          "Happy Anniversary, Mom and Dad! Your love and dedication have been the foundation of our family’s happiness. Wishing you many more beautiful years together. ❤️🌟",
+
+          "To the parents who showed us what true love looks like — your bond inspires us every day. May your anniversary be filled with joy and cherished memories. 🥰🎉",
+
+          "Your journey together is a beautiful example of commitment, patience, and unconditional love. Happy Anniversary, Mom and Dad! We love you endlessly. 💖🙏",
+
+          "Thank you for being the perfect team through every season of life. Wishing you a happy anniversary filled with laughter, peace, and togetherness. 🌸🎂",
+
+          "Happy Anniversary to the couple whose love story has touched so many hearts — especially ours. May your day be as wonderful as the love you share. 🌹✨",
+
+          "Mom and Dad, your marriage is proof that true love lasts forever. Wishing you continued happiness and blessings on this special anniversary. 🎊💝",
+
+          "Celebrating the love that built our family and made a home full of warmth. Happy Anniversary, Mom and Dad! May your hearts stay forever young. 🏡❤️",
+
+          "You’ve been each other’s strength and joy through every challenge and celebration. Here’s to many more years of beautiful memories. Happy Anniversary! 🌟👫",
+
+          "To the parents who gave us so much love and guidance — your anniversary is a special reminder of the beautiful bond you share. We wish you all the happiness in the world! 🎉💞",
+
+          "Your marriage is a blessing that keeps on giving. Happy Anniversary, Mom and Dad! May your love continue to grow deeper every day. 🌷🙏",
+        ],
+      },
+      "For Friends": {
+        paragraph:
+          "Friends who’ve built a strong, lasting marriage deserve to be celebrated with words of encouragement and admiration. These anniversary wishes are crafted to show support, appreciation, and joy for the couples who inspire us every day.",
+        messages: [
+          "Happy Anniversary, my dear friends! Watching your love grow stronger every year is truly inspiring. Wishing you endless joy and laughter ahead! 🥳❤️",
+
+          "To a wonderful couple and even better friends — may your anniversary be filled with beautiful moments and unforgettable memories. Cheers! 🍾🎉",
+
+          "You two prove that friendship and love make the perfect match. Happy Anniversary! May your bond keep shining brighter with each passing year. ✨💑",
+
+          "Celebrating the love story of two amazing friends today! Wishing you a lifetime of happiness and countless reasons to smile together. 😊💖",
+
+          "Happy Anniversary to my favorite duo! Your love, laughter, and friendship light up every room — here’s to many more years of fun and love! 🎊💞",
+
+          "To friends who make marriage look easy and fun — your journey together is a beautiful example for us all. Happy Anniversary and lots of love! 🌟💐",
+
+          "May your anniversary be filled with the same warmth, kindness, and joy that you bring to everyone around you. Cheers to your beautiful marriage! 🥂💝",
+
+          "Happy Anniversary! Your friendship and love inspire everyone lucky enough to know you. Wishing you many more years of happiness and adventure. 🌍❤️",
+
+          "To the couple who’s both my friends and relationship goals — keep shining together and making memories that last a lifetime. 👫🎉",
+
+          "Friends like you deserve all the happiness in the world. Happy Anniversary! May your love story continue to be as amazing as you are. 💕🎂",
+        ],
+      },
+      "For Social Media": {
+        paragraph:
+          "Looking to share a sweet anniversary message online? These short, catchy, and affectionate wishes are perfect for Instagram captions, Facebook posts, or WhatsApp statuses — making your love story shine on any platform.",
+        messages: [
+          "Happy Anniversary to my forever favorite couple! 💕✨ #LoveGoals",
+
+          "Together is my favorite place to be. Happy Anniversary! 🥰💑 #ForeverUs",
+
+          "Cheers to love, laughter, and happily ever after! 🎉❤️ #AnniversaryVibes",
+
+          "Another year, another reason to celebrate YOU two! 🥂🎊 #CoupleGoals",
+
+          "Here’s to love that only grows stronger. Happy Anniversary! 🌹🔥 #TrueLove",
+
+          "Still crushing on you after all these years. Happy Anniversary! 😘💞 #StillInLove",
+
+          "Soulmates since day one. Happy Anniversary! 💫💖 #PerfectMatch",
+
+          "Love is not just a feeling; it’s an adventure. Cheers to many more! 🚀❤️ #Anniversary",
+
+          "Two hearts, one journey — happy anniversary, lovebirds! 🕊️💝 #TogetherForever",
+
+          "Your love story is pure magic. Happy Anniversary! ✨💑 #LoveStory",
+        ],
+      },
+      "For Grandparents": {
+        paragraph:
+          "Grandparents are a beautiful example of enduring love. These messages celebrate their lifelong partnership, honoring their wisdom, patience, and the loving foundation they’ve built for generations to come.",
+        messages: [
+          "Happy Anniversary to our wonderful grandparents! Your love and wisdom light up our family and inspire us every day. ❤️🌟",
+
+          "To the grandparents who have shown us the true meaning of lasting love — may your anniversary be as beautiful as your journey together. 🥰🎉",
+
+          "Your bond has stood the test of time, teaching us patience, kindness, and devotion. Wishing you a joyful and blessed anniversary! 🌸🙏",
+
+          "Happy Anniversary! Your love story is a treasured legacy, one that fills our hearts with pride and gratitude. Thank you for being our guiding light. 🌹✨",
+
+          "Celebrating the beautiful life and love you’ve built together. May your anniversary be filled with joy, peace, and cherished memories. 🎊💖",
+
+          "Grandma and Grandpa, your marriage is a shining example of commitment and grace. Wishing you continued happiness on this special day. 💞🏡",
+
+          "Your love has been a strong foundation for our family’s happiness. Happy Anniversary! May your hearts remain forever young. 🌟💝",
+
+          "Thank you for showing us that true love only grows deeper with time. Wishing you a blessed and joyful anniversary celebration. 🕊️❤️",
+
+          "Happy Anniversary to the couple who has filled our lives with love, laughter, and unforgettable stories. Here’s to many more beautiful years together! 🎉🌷",
+
+          "Your lifelong journey together is a precious gift to all who know you. May your anniversary be filled with blessings, love, and happiness. 🙏💖",
+        ],
+      },
+      "For Siblings": {
+        paragraph:
+          "Watching your brother or sister grow in love with their partner is heartwarming. These anniversary wishes are designed to celebrate the beautiful journey of your sibling and their spouse, full of respect, affection, and cheer.",
+        messages: [
+          "Happy Anniversary to my amazing sibling and their wonderful partner! Wishing you both a lifetime of love, laughter, and happiness together. ❤️🎉",
+
+          "To my dear brother/sister and their soulmate — your love inspires us all. May your anniversary be filled with joy and beautiful memories! 🥰🌟",
+
+          "Celebrating the special bond you share and the incredible journey you’ve embarked on. Happy Anniversary, dear sibling! 💖🥂",
+
+          "Wishing you endless love and happiness on your anniversary. You two make marriage look beautiful and fun! 🎊💞",
+
+          "Happy Anniversary! It’s so wonderful to see my sibling so happy and loved. May your life together be filled with blessings and joy. 🌸✨",
+
+          "To my sibling and their life partner — your love story is one for the books. Cheers to many more years of happiness! 📖❤️",
+
+          "May your anniversary be as wonderful as the love you share. So proud of the beautiful couple you’ve become! 🌹🎉",
+
+          "Happy Anniversary! May your relationship continue to grow stronger and your days be filled with laughter and love. 💕😊",
+
+          "To my sibling and their better half — thank you for showing us all how love truly works. Wishing you a joyful and memorable anniversary! 🎂💝",
+
+          "Here’s to a lifetime of happiness, adventures, and shared dreams. Happy Anniversary, dear sibling and partner! 🥳❤️",
+        ],
+      },
+      "For Couple": {
+        paragraph:
+          "Celebrate the bond of togetherness with heartfelt wishes for any loving couple. These messages are ideal for friends, family members, or anyone whose relationship you admire — conveying warm sentiments and genuine joy for their love story.",
+        messages: [
+          "Happy Anniversary to a beautiful couple whose love shines brighter with each passing year. Wishing you endless joy and togetherness. ❤️✨",
+
+          "To the perfect pair — may your love story continue to grow deeper and your bond become stronger every day. Happy Anniversary! 🥂💞",
+
+          "Celebrating the love, laughter, and memories you’ve built together. Here’s to many more years of happiness and adventures. 🎉🌹",
+
+          "Happy Anniversary! Your relationship is a wonderful example of true love, trust, and partnership. May your journey together be forever blessed. 🌟💖",
+
+          "To a couple who complements each other perfectly — your love inspires all who know you. Wishing you a joyous anniversary filled with love. 💕🎊",
+
+          "Another year, another chapter in your beautiful love story. May your hearts stay forever connected and your smiles never fade. 😊❤️",
+
+          "Happy Anniversary to two souls perfectly matched, growing together in love and life. Here’s to a lifetime of happiness. 💑✨",
+
+          "May your anniversary remind you of all the reasons you fell in love and all the dreams you still share. Congratulations to a wonderful couple! 🎂💞",
+
+          "Your love is a true blessing, lighting up your lives and those around you. Wishing you a happy anniversary full of joy and warmth. 🌹❤️",
+
+          "To a couple whose love is timeless and true — happy anniversary! May your days be filled with laughter, love, and endless happiness. 🎉💖",
+        ],
+      },
     },
   },
   {
     title: "🌟 Motivational Quotes",
     subcategories: {
-      Success: [
-        "Success is not final; failure is not fatal: It is the courage to continue that counts. — Winston Churchill",
-        "The road to success and the road to failure are almost exactly the same. — Colin R. Davis",
-        "Success usually comes to those who are too busy to be looking for it. — Henry David Thoreau",
-        "Success is the sum of small efforts, repeated day in and day out. — Robert Collier",
-        "Success is getting what you want; happiness is wanting what you get. — W. P. Kinsella",
-      ],
-      Perseverance: [
-        "It always seems impossible until it's done. — Nelson Mandela",
-        "Pain is temporary. Quitting lasts forever. — Lance Armstrong",
-        "The only way to do great work is to love what you do. — Steve Jobs",
-        "Don't watch the clock; do what it does. Keep going. — Sam Levenson",
-        "Believe you can and you're halfway there. — Theodore Roosevelt",
-      ],
-      "Self-Belief": [
-        "Whether you think you can or you think you can't, you're right. — Henry Ford",
-        "You miss 100% of the shots you don't take. — Wayne Gretzky",
-        "I am not a product of my circumstances. I am a product of my decisions. — Stephen R. Covey",
-        "Do what you can, with what you have, where you are. — Theodore Roosevelt",
-        "The best way to predict the future is to create it. — Peter Drucker",
-      ],
-      "Overcoming Fear": [
-        "The only thing we have to fear is fear itself. — Franklin D. Roosevelt",
-        "Courage is resistance to fear, mastery of fear — not absence of fear. — Mark Twain",
-        "Don't let yesterday take up too much of today. — Will Rogers",
-        "You are braver than you believe, stronger than you seem, and smarter than you think. — A.A. Milne",
-        "Everything you want is on the other side of fear. — Jack Canfield",
-      ],
-      "Dreams & Goals": [
-        "The future belongs to those who believe in the beauty of their dreams. — Eleanor Roosevelt",
-        "Dream big and dare to fail. — Norman Vaughan",
-        "A goal without a plan is just a wish. — Antoine de Saint-Exupéry",
-        "The secret of getting ahead is getting started. — Mark Twain",
-        "Your time is limited, so don't waste it living someone else's life. — Steve Jobs",
-      ],
+      Success: {
+        paragraph:
+          "Success is a journey that requires dedication, perseverance, and a positive mindset. It’s not just about reaching a destination but about growing stronger with every challenge you face along the way. These motivational quotes remind us that success is built on consistent effort, resilience, and the courage to chase our dreams. Whether you’re starting a new project, aiming for a promotion, or striving for personal growth, these inspiring words will fuel your determination and help you stay focused on what truly matters — turning your goals into reality.",
+        messages: [
+          "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful. — Albert Schweitzer",
+
+          "Don’t wait for opportunity. Create it. Success comes to those who take action. 🌟",
+
+          "Success is the sum of small efforts, repeated day in and day out. Keep going! 💪",
+
+          "The road to success is always under construction. Embrace the journey and learn from every step. 🚧",
+
+          "Success doesn’t come to you — you go to it. Chase your dreams relentlessly and never settle. 🚀",
+
+          "Behind every success story is a person who refused to give up. Stay determined, and the results will follow. 🔥",
+
+          "Success is not about being the best, but about always getting better than you were yesterday. 📈",
+
+          "Your mindset is the foundation of your success. Think positive, act with purpose, and achieve greatness. 💡",
+
+          "Failure is simply the opportunity to begin again, this time more intelligently. Keep pushing forward! 🔄",
+
+          "Success is earned, not given. Work hard, stay focused, and make your dreams a reality. 🎯",
+        ],
+      },
+      Perseverance: {
+        paragraph:
+          "Perseverance is the quiet, steady force that drives us forward when obstacles seem insurmountable. It’s about having the courage to keep going despite setbacks, failures, and moments of doubt. This unwavering determination transforms challenges into opportunities and helps us build the resilience necessary to achieve our dreams. The path to success is rarely smooth, but with perseverance, every struggle becomes a stepping stone toward growth and accomplishment.",
+        messages: [
+          "Perseverance is not a long race; it is many short races one after the other. Keep moving forward! 🚶‍♂️🚶‍♀️",
+
+          "When you feel like quitting, remember why you started. The toughest climbs lead to the best views. 🏔️",
+
+          "Success belongs to those who refuse to give up, even when the path gets hard. Stay strong and keep pushing. 💥",
+
+          "Perseverance turns stumbling blocks into stepping stones. Every challenge is a chance to grow. 🌱",
+
+          "The difference between failure and success is often just the courage to try one more time. Never give up! 🔄",
+
+          "Through perseverance, many people win success out of what seemed destined to be certain failure. — Benjamin Disraeli",
+
+          "It’s not about how fast you go, but about never stopping. Keep your eyes on the goal and keep going. 🎯",
+
+          "Perseverance is the silent strength that turns dreams into reality. Trust the process and keep moving. ✨",
+
+          "Hard times don’t last, but the perseverance you build during them does. Be patient and persistent. ⏳",
+
+          "The road to success is paved with perseverance, grit, and relentless effort. Stay focused and never lose hope. 🚀",
+        ],
+      },
+      "Self-Belief": {
+        paragraph:
+          "Self-belief is the foundation of all success and personal growth. When you truly trust your own abilities and value your worth, challenges become opportunities rather than obstacles. This confidence fuels courage, persistence, and the motivation to take bold steps toward your dreams. Cultivating self-belief empowers you to overcome doubts, silence negative voices, and unlock your full potential, reminding you that the greatest power to change your life lies within yourself.",
+        messages: [
+          "Whether you think you can or you think you can't, you're right. — Henry Ford",
+          "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle. — Christian D. Larson",
+          "Self-confidence is the first requisite to great undertakings. — Samuel Johnson",
+          "Trust yourself. You know more than you think you do. — Benjamin Spock",
+          "Your belief in yourself is your greatest strength. Nurture it and watch how far you can go.",
+          "When you believe in your abilities, doors open that once seemed impossible to unlock.",
+          "Confidence comes not from always being right but from not fearing to be wrong.",
+          "The moment you doubt whether you can fly, you cease forever to be able to do it. — J.M. Barrie",
+          "Believe deep down in your heart that you’re destined to do great things. — Joe Paterno",
+          "Self-belief is the spark that ignites your passion and fuels your journey to success.",
+        ],
+      },
+      "Overcoming Fear": {
+        paragraph:
+          "Fear can be one of the biggest barriers to achieving our goals and living a fulfilled life. However, learning to face and overcome fear is essential for growth and success. It takes courage to step outside your comfort zone and confront what scares you. When you push past fear, you gain confidence, resilience, and a deeper understanding of your true potential. Embracing fear as a natural part of the journey transforms it from a limiting force into a powerful motivator that drives you forward.",
+        messages: [
+          "Fear doesn’t have to stop you. It’s just a feeling—let your courage be louder.",
+          "The only thing we have to fear is fear itself. — Franklin D. Roosevelt",
+          "Don’t let fear decide your future. Take the leap and grow beyond limits.",
+          "Courage is resistance to fear, mastery of fear—not absence of fear. — Mark Twain",
+          "Everything you want is on the other side of fear. Push through and claim it.",
+          "Fear is temporary. Regret is forever. Face your fears head-on.",
+          "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face. — Eleanor Roosevelt",
+          "The cave you fear to enter holds the treasure you seek. — Joseph Campbell",
+          "Fear is a reaction. Courage is a decision. Choose courage every time.",
+          "Step outside your comfort zone — that’s where growth and freedom begin.",
+        ],
+      },
+      "Dreams & Goals": {
+        paragraph:
+          "Dreams and goals give our lives purpose and direction. They inspire us to imagine a better future and push us to take actionable steps toward making that vision real. Setting clear goals helps break down big dreams into manageable milestones, keeping us focused and motivated. While the journey may have challenges, staying committed to your dreams fuels growth and achievement. Remember, every great success starts with a dream and the courage to pursue it relentlessly.",
+        messages: [
+          "A goal without a plan is just a wish. Turn your dreams into action.",
+          "Dream big, set goals, and work hard — success will follow.",
+          "The future belongs to those who believe in the beauty of their dreams. — Eleanor Roosevelt",
+          "Don’t watch the clock; do what it does. Keep going toward your goals. — Sam Levenson",
+          "Your goals are the roadmap to your dreams — keep moving forward.",
+          "Success is the progressive realization of a worthy goal or dream. — Earl Nightingale",
+          "Dreams don’t work unless you do. Stay focused and keep pushing.",
+          "Set your goals high, and don’t stop till you get there. — Bo Jackson",
+          "Small steps each day lead to big achievements over time.",
+          "Believe in your dreams and take action — that’s the secret to success.",
+        ],
+      },
     },
   },
   {
     title: "💡 Inspirational Quotes",
+    paragraph:
+      "Inspiration has the power to awaken our inner strength, spark creativity, and motivate us to overcome challenges. It reminds us that no matter the obstacles, we have the potential to rise, grow, and make a difference. These inspirational quotes serve as gentle yet powerful reminders that every step forward, no matter how small, brings us closer to the life we envision. Let these words fuel your passion and courage to keep moving ahead with hope and determination.",
     subcategories: {
-      "Life Lessons": [
-        "Life isn't about finding yourself. Life is about creating yourself. — George Bernard Shaw",
-        "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. — Ralph Waldo Emerson",
-        "In three words I can sum up everything I've learned about life: it goes on. — Robert Frost",
-        "Life is what happens when you're busy making other plans. — John Lennon",
-        "The longer I live, the more I realize the impact of attitude on life. — Charles R. Swindoll",
-      ],
-      "Love & Relationships": [
-        "Love the one you’re with. — Stephen Stills",
-        "To love and be loved is to feel the sun from both sides. — David Viscott",
-        "Love is composed of a single soul inhabiting two bodies. — Aristotle",
-        "We loved with a love that was more than love. — Edgar Allan Poe",
-        "Love is all we have, the only way that each can help the other. — Euripides",
-      ],
-      "Hope & Positivity": [
-        "Keep your face always toward the sunshine—and shadows will fall behind you. — Walt Whitman",
-        "Happiness is not something ready made. It comes from your own actions. — Dalai Lama",
-        "The best way to predict the future is to create it. — Peter Drucker",
-        "You must be the change you wish to see in the world. — Mahatma Gandhi",
-        "The only way to do great work is to love what you do. — Steve Jobs",
-      ],
-      "Courage & Strength": [
-        "Courage is grace under pressure. — Ernest Hemingway",
-        "It takes courage to grow up and become who you really are. — E.E. Cummings",
-        "You don't have to be fearless, just don't let fear stop you. — Charlie Day",
-        "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.' — Mary Anne Radmacher",
-        "The only limit to our realization of tomorrow is our doubts of today. — Franklin D. Roosevelt",
-      ],
-      "Wisdom & Knowledge": [
-        "An unexamined life is not worth living. — Socrates",
-        "The only true wisdom is in knowing you know nothing. — Socrates",
-        "Knowing others is intelligence; knowing yourself is true wisdom. — Lao Tzu",
-        "The journey of a thousand miles begins with one step. — Lao Tzu",
-        "Wisdom begins in wonder. — Socrates",
-      ],
+      "Life Lessons": {
+        paragraph:
+          "Life is a continuous journey of learning, growth, and self-discovery. Every experience, whether joyful or challenging, teaches us valuable lessons that shape who we are and guide us toward becoming better versions of ourselves. Embracing these lessons with an open mind and heart helps us build resilience, wisdom, and compassion. These life lessons remind us that growth often comes through adversity, and every step we take is an opportunity to learn and improve.",
+        messages: [
+          "Mistakes are proof that you are trying and learning.",
+          "The greatest lessons in life are often learned through the hardest times.",
+          "Life’s challenges are not roadblocks, but stepping stones to success.",
+          "Growth begins where your comfort zone ends.",
+          "Every day is a new opportunity to learn something valuable.",
+          "Patience and perseverance are the keys to mastering life’s lessons.",
+          "Listen more than you speak — wisdom comes from understanding.",
+          "It’s not about having the perfect plan, but about learning as you go.",
+          "Sometimes the hardest lessons teach the best truths.",
+          "Your attitude towards life’s lessons determines your growth.",
+        ],
+      },
+
+      "Love & Relationships": {
+        paragraph:
+          "Love and relationships are the heartbeats of our lives, offering connection, support, and growth. They teach us empathy, patience, and the beauty of sharing life’s journey with others. True love inspires us to be our best selves, encouraging kindness and understanding even in challenging times. These inspirational quotes celebrate the power of love to heal, unite, and motivate us to create deeper bonds and meaningful connections that enrich our lives.",
+        messages: [
+          "Love doesn’t make the world go round. Love is what makes the ride worthwhile. — Franklin P. Jones",
+          "The best relationships are the ones where you bring out the best in each other.",
+          "True love is not about perfection but about accepting and growing together.",
+          "In the end, love is the most powerful force that inspires us to be better every day.",
+          "Relationships are built on trust, respect, and the courage to be vulnerable.",
+          "To love and be loved is to feel the sun from both sides. — David Viscott",
+          "Love grows by giving. The love we give away is the only love we keep.",
+          "A strong relationship requires choosing to love each other even in the hard moments.",
+          "Love is the bridge between two hearts that no distance can break.",
+          "When love inspires your actions, every relationship becomes a source of strength.",
+        ],
+      },
+      "Hope & Positivity": {
+        paragraph:
+          "Hope is the light that guides us through the darkest times, and positivity is the mindset that empowers us to see possibilities instead of problems. Together, they create a powerful force that helps us face challenges with courage and resilience. Cultivating hope and maintaining a positive outlook can transform obstacles into opportunities and inspire us to keep moving forward, no matter what life throws our way.",
+        messages: [
+          "Hope is the whisper that says, ‘Keep going, better days are ahead.’",
+          "Positive thinking doesn’t mean ignoring the negative; it means overcoming it with strength.",
+          "In the middle of difficulty lies opportunity. — Albert Einstein",
+          "A hopeful heart sees the light even when the world feels dark.",
+          "Choose to be optimistic—it feels better and leads to better outcomes.",
+          "Positivity is a choice that fuels your journey toward happiness and success.",
+          "Where there is hope, there is a way forward.",
+          "Difficult roads often lead to beautiful destinations.",
+          "Let your faith be bigger than your fears.",
+          "Every day may not be good, but there is something good in every day.",
+        ],
+      },
+      "Courage & Strength": {
+        paragraph:
+          "Courage and strength are the inner forces that empower us to face adversity, overcome fears, and keep moving forward even when the path is uncertain. True courage is not the absence of fear but the willingness to act despite it. Strength is built through resilience and persistence, growing with every challenge we meet. Together, they help us break through barriers, build confidence, and realize our full potential in life’s journey.",
+        messages: [
+          "Courage is not the absence of fear, but the triumph over it. — Nelson Mandela",
+          "Strength doesn’t come from what you can do. It comes from overcoming the things you once thought you couldn’t.",
+          "Be brave enough to live life creatively. The creative place where no one else has ever been. — Alan Alda",
+          "You never know how strong you are until being strong is your only choice. — Bob Marley",
+          "Sometimes the strongest people are the ones who love beyond all faults.",
+          "Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying, ‘I will try again tomorrow.’ — Mary Anne Radmacher",
+          "Strength grows in the moments when you think you can’t go on but you keep going anyway.",
+          "The bravest sight in the world is to see a great man struggling against adversity. — Seneca",
+          "What lies behind us and what lies before us are tiny matters compared to what lies within us. — Ralph Waldo Emerson",
+          "Hold on to your courage and strength—they are the keys to unlocking your greatest potential.",
+        ],
+      },
+      "Wisdom & Knowledge": {
+        paragraph:
+          "Wisdom and knowledge are the pillars that support growth, decision-making, and meaningful living. While knowledge is the collection of facts and information, wisdom is the ability to apply that knowledge with insight and understanding. Cultivating both empowers us to navigate life’s complexities with clarity and confidence. It helps us learn from experience, make better choices, and inspire others through thoughtful actions and words.",
+        messages: [
+          "Knowledge speaks, but wisdom listens. — Jimi Hendrix",
+          "The only true wisdom is in knowing you know nothing. — Socrates",
+          "Wisdom is not a product of schooling but of the lifelong attempt to acquire it. — Albert Einstein",
+          "An investment in knowledge pays the best interest. — Benjamin Franklin",
+          "Wisdom comes from experience, and experience comes from making mistakes.",
+          "True knowledge exists in knowing that you know nothing at all.",
+          "The more you learn, the more you realize how much you don’t know.",
+          "Knowledge is power, but wisdom is using that power for good.",
+          "Seek knowledge relentlessly, but apply wisdom thoughtfully.",
+          "Wisdom is the reward you get for a lifetime of listening when you’d have preferred to talk.",
+        ],
+      },
     },
   },
   {
     title: "😔 Sad Quotes",
     subcategories: {
-      Heartbreak: [
-        "The way to know how much you love someone is to lose them. — Unknown",
-        "It's hard to forget someone who gave you so much to remember. — Unknown",
-        "Sometimes, the one who loves you is the one who hurts you the most. — Unknown",
-        "The worst feeling is not being lonely, it's being forgotten by someone you could never forget. — Unknown",
-        "It's not the goodbye that hurts, but the flashbacks that follow. — Unknown",
-      ],
-      Loneliness: [
-        "The eternal quest of the human being is to shatter his loneliness. — Norman Cousins",
-        "Loneliness and the feeling of being unwanted is the most terrible poverty. — Mother Teresa",
-        "The eternal quest of the human being is to shatter his loneliness. — Norman Cousins",
-        "Loneliness is the first thing which God's eye named not good. — John Milton",
-        "The eternal quest of the human being is to shatter his loneliness. — Norman Cousins",
-      ],
-      "Loss & Grief": [
-        "Grief is the price we pay for love. — Queen Elizabeth II",
-        "When someone you love becomes a memory, that memory becomes a treasure. — Unknown",
-        "The pain of losing someone is a reminder that we had something special. — Unknown",
-        "To live in hearts we leave behind is not to die. — Thomas Campbell",
-        "Those we love and lose are always connected by heartstrings into infinity. — Terri Guillemets",
-      ],
-      Regret: [
-        "I wish I could go back and change things, but I can't. — Unknown",
-        "Regret is the most tiresome thing in life. — Unknown",
-        "It's hard to move on when you keep looking back. — Unknown",
-        "Regret is a form of punishment itself. — Unknown",
-        "The only thing worse than being alone is being with someone who makes you feel alone. — Unknown",
-      ],
-      Sadness: [
-        "Tears come from the heart and not from the brain. — Leonardo da Vinci",
-        "Sadness flies away on the wings of time. — Jean de La Fontaine",
-        "The word 'happy' would lose its meaning if it were not balanced by sadness. — Carl Jung",
-        "Sadness is but a wall between two gardens. — Khalil Gibran",
-        "The good life is not one immune to sadness but one in which suffering contributes to our development. — Alain de Botton",
-      ],
+      Heartbreak: {
+        paragraph:
+          "Heartbreak is one of life’s most painful experiences, testing our strength and resilience. It often feels like a deep ache that lingers, yet through this pain, we learn about our capacity to heal and grow. While the sorrow may seem overwhelming, it opens the door to self-discovery, compassion, and the chance to rebuild ourselves stronger. These quotes reflect the bittersweet journey of heartbreak — the pain, the lessons, and the hope for new beginnings.",
+        messages: [
+          "Sometimes the hardest part isn’t letting go but learning to start over.",
+          "Heartbreak is a wound that teaches us how to heal with time and self-love.",
+          "The pain of losing someone is a reminder of how deeply we can love.",
+          "It’s okay to feel broken — it means you were real and you cared.",
+          "Every heartbreak carries the seed of a new beginning, waiting to grow.",
+          "The scars you carry are proof that you survived and will thrive.",
+          "Healing doesn’t mean the pain disappears; it means you learn to live with it.",
+          "In the midst of heartbreak, remember you are worthy of love and happiness again.",
+          "Sometimes we must lose what we love to find who we truly are.",
+          "The hardest goodbyes are the ones we never saw coming.",
+        ],
+      },
+
+      Loneliness: {
+        paragraph:
+          "Loneliness is a universal feeling that touches us all at some point. It can bring moments of quiet reflection but also feelings of isolation and longing. While loneliness can be challenging, it also offers a chance for self-awareness and growth. Embracing solitude helps us understand ourselves better, appreciate meaningful connections, and build inner strength. These quotes capture the complex emotions of loneliness—the pain, the depth, and the hope that companionship and self-love can bring.",
+        messages: [
+          "Loneliness is not the absence of people but the absence of connection.",
+          "Sometimes, the loneliest place is within yourself.",
+          "Solitude isn’t empty—it’s a space to find peace within the silence.",
+          "The greatest thing in the world is to know how to belong to oneself. — Michel de Montaigne",
+          "Loneliness teaches us to cherish the moments when we truly connect.",
+          "You are never alone when you learn to be your own best company.",
+          "Sometimes, being alone is the best way to heal and grow stronger.",
+          "The pain of loneliness is real, but so is the strength it builds.",
+          "In solitude, we discover the depth of our own soul.",
+          "Loneliness is a reminder to seek the connections that truly matter.",
+        ],
+      },
+
+      "Loss & Grief": {
+        paragraph:
+          "Loss and grief are painful parts of life that test our hearts. Though deeply difficult, they also open the way for healing, remembrance, and growth. These moments remind us of the love we hold and the strength we carry within.",
+        messages: [
+          "Grief is the price we pay for love deeply felt.",
+          "Healing begins when we allow ourselves to feel the pain of loss.",
+          "Loss leaves a heartache no one can heal, but love leaves a memory no one can steal.",
+          "In grief, we learn the true value of what was lost.",
+          "The pain of loss is heavy, but so is the strength it reveals.",
+          "Time doesn’t heal all wounds, but it helps us learn to carry them.",
+          "Grief is not a sign of weakness, but a testament to how much we cared.",
+          "Even in loss, love remains a light that never fades.",
+          "Every tear is a step toward healing.",
+          "Cherish the memories—they are the bridge to peace.",
+        ],
+      },
+      Regret: {
+        paragraph:
+          "Regret is a heavy feeling that reminds us of choices we wish we could change. While it can weigh us down, it also teaches valuable lessons and encourages us to make better decisions moving forward.",
+        messages: [
+          "Regret is the echo of what might have been, but the present is yours to shape.",
+          "Don’t let regret steal your joy—learn, forgive, and move on.",
+          "The past cannot be changed, but the future is in your hands.",
+          "Regret is a teacher, not a jailer.",
+          "It’s better to have tried and learned than never to have dared at all.",
+          "Holding onto regret only keeps you stuck; let it go to grow.",
+          "Every regret is an opportunity to make a wiser choice next time.",
+          "Regret fades when we choose to live fully in the present.",
+          "Mistakes are proof that you’re trying, not failing.",
+          "Turn regret into resolve to create a better tomorrow.",
+        ],
+      },
+      Sadness: {
+        paragraph:
+          "Sadness is a natural emotion that reminds us we are human. Though it can feel heavy, embracing sadness allows us to heal, reflect, and grow stronger. It is through sadness that we learn to appreciate joy and resilience.",
+        messages: [
+          "Sadness is not a weakness, but a sign of a heart that feels deeply.",
+          "Sometimes, it’s okay to sit with sadness and let it teach you.",
+          "Even the darkest clouds eventually give way to sunlight.",
+          "Sadness is a bridge to understanding and compassion.",
+          "Tears are the silent language of sadness speaking to the soul.",
+          "Feeling sad means you are alive and capable of great love.",
+          "Sadness reminds us to cherish the moments of happiness.",
+          "In sadness, we find the courage to face tomorrow.",
+          "Healing begins when we allow ourselves to feel the pain.",
+          "Sadness is temporary, but strength gained is lasting.",
+        ],
+      },
     },
   },
 
   {
     title: "❤️ Love & Romantic",
     subcategories: {
-      General: [
-        "Every love story is special, but ours is my favorite. ❤️✨",
-        "You're not just my heart, you're my home. 🏡💕",
-        "Loving you feels like breathing — effortless and essential. 🌬️💘",
-        "I found my forever in your smile. 😊💖",
-        "You're the reason my heart beats a little faster. 💓🔥",
-        "With you, even silence feels like poetry. 🥰📖",
-        "My favorite place in the world is right next to you. 🌍💑",
-        "You + Me = Endless magic. 💫👫",
-        "Every time I see you, I fall in love all over again. 💘👀",
-        "You’re my today, my tomorrow, and every heartbeat in between. 🕰️❤️",
-        "Even the stars envy the sparkle in your eyes. ✨👀",
-        "If I know what love is, it's because of you. 🫀",
-        "You make my world brighter just by being in it. 🌟",
-        "When I’m with you, time stops and hearts speak. 💞",
-        "You're the melody my heart has been humming forever. 🎶💓",
-        "Our souls met long before our eyes did. 🌌",
-        "In your arms, I’ve found both peace and fire. 🔥🕊️",
-        "I still get butterflies every time I see you. 🦋😍",
-        "With you, every ordinary moment feels extraordinary. ✨",
-        "My heart chose you, and it's the smartest thing it ever did. 🧠❤️",
-        "You're the dream I never want to wake up from. 🌙💤",
-        "Holding your hand feels like holding the world. 🌎✋",
-        "Love isn't something I fall into, it's someone I grow with — you. 🌱❤️",
-        "You're my sweetest escape and my greatest reality. 🍯🌈",
-        "You're not my number one, you're my only one. 🔐💘",
-        "In your smile, I see a thousand sunrises. 🌅😊",
-        "Loving you is like breathing — I just can't stop. 💨❤️",
-        "You're the reason my heart whispers 'stay.' 🤫💓",
-        "If love had a face, it would look just like yours. 🥰🖼️",
-        "Forever isn't long enough when it comes to us. 🔁💖",
-        "Your voice is my favorite sound, your name is my favorite word. 🎧💬",
-        "You're the pause in my chaos, the calm in my storm. 🌧️🌈",
-        "I didn’t believe in fate until you happened. 💫👩‍❤️‍👨",
-        "You’ve turned my life into a beautiful love song. 🎵❤️",
-        "My soul recognized yours the moment we met. 🔄💞",
-        "I love you more than I have words to say — and that’s saying something. 💬❣️",
-        "Our hearts speak a language only we understand. 💑🔐",
-        "No moment with you is ever wasted; it’s all memory in the making. 🕰️💖",
-        "You're the peace I never knew I needed. ☮️💓",
-        "With you, my love, every day feels like Valentine's. 🌹💌",
-        "Your laughter is my favorite love song. 🎶😂❤️",
-        "Distance means nothing when someone means everything. 🌍📏",
-        "I want to grow old with you and laugh at all the memories we create. 👵👴📸",
-        "You are the sunshine that makes my soul bloom. 🌻🌞",
-        "You walked in, and suddenly, everything made sense. 🚪💡",
-        "You’re the missing piece I didn’t even know I was looking for. 🧩💘",
-        "Every love poem I’ve read now finally makes sense — because of you. 📖💖",
-        "I’d choose you in every life, in every world, in every heartbeat. 🌌💓",
-        "You're not just my love — you're my light, my fire, and my forever. 🔥✨❤️",
-        "In your love, I’ve found my reason, my rhythm, and my rest. 🎵🫶",
-      ],
+      General: {
+        paragraph:
+          "Romantic love is a beautiful journey filled with passion, tenderness, and deep connection. It inspires us to express our feelings openly and cherish the special bond shared between two hearts. These quotes celebrate the magic of romance, the joy of companionship, and the timeless beauty of loving and being loved.",
+        messages: [
+          "You are my today and all of my tomorrows.",
+          "In your smile, I see something more beautiful than the stars.",
+          "Love is not just looking at each other, but looking together in the same direction.",
+          "With you, every moment feels like a fairytale come true.",
+          "My heart beats to the rhythm of your love.",
+          "Romance is the spark that lights the fire of a lifetime together.",
+          "Falling in love with you was the best thing I ever did.",
+          "Love is the greatest adventure two souls can share.",
+          "Forever is just the beginning when I’m with you.",
+          "Your love makes my world a brighter place.",
+          "Every love story is beautiful, but ours is my favorite.",
+
+          "You’re the reason my heart knows how to smile.",
+
+          "In your arms, I’ve found my safest place.",
+
+          "Love grows deeper with every shared moment.",
+
+          "You are the poetry my heart has always longed to write.",
+
+          "Being with you feels like coming home.",
+
+          "True love is the quiet understanding and endless support.",
+
+          "You’re my forever and always, no matter what.",
+
+          "Every day with you is a new page in our love story.",
+
+          "With you, love isn’t just a feeling, it’s a beautiful reality.",
+        ],
+      },
     },
   },
   {
     title: "🤝 Friendship",
     subcategories: {
-      General: [
-        "Friends are the family we choose ourselves. 🫂❤️",
-        "With true friends, even silence is comforting. 🤫👬",
-        "Good times + Crazy friends = Amazing memories. 🎉😂",
-        "You make life brighter just by being in it. 🌟👯‍♂️",
-        "Real friends don’t let you do stupid things… alone. 😜🤝",
-        "A friend is one soul living in two bodies. 🧠💞",
-        "Loyal friends are rare — like diamonds in a sea of stones. 💎🌊",
-        "We didn’t realize we were making memories, we just knew we were having fun. 📸😄",
-        "True friendship is a journey without an end. 🚶‍♂️🚶‍♀️💫",
-        "No road is long when you walk with a friend. 🛣️👫",
-        "Friends multiply your joy and divide your sorrow. ➕❤️➖",
-        "Real friends are like stars — you don’t always see them, but they’re always there. 🌌✨",
-        "You’re my person, my laughter, my chaos, my calm. 💥😌",
-        "Friendship isn’t about who you’ve known the longest; it’s about who walked in and stayed. 🚪🤗",
-        "Life is better with friends and snacks. 🍿😄",
-        "Behind every great memory is a bunch of crazy friends. 📚😂",
-        "Cheers to the ones who know all your weirdness and still stick around. 🥂😜",
-        "Friendship is the art of keeping hearts close, no matter how far apart. 🗺️💓",
-        "Some friendships are timeless — like vintage wine and old jokes. 🍷😂",
-        "The best mirror is an old friend. 🪞👴",
-        "Friendship: when your nonsense makes sense to someone else. 🤪🤝",
-        "My friend is my sunshine on a cloudy day. ☀️🌧️",
-        "You laugh, I laugh. You cry, I cry. You jump off a cliff, I say ‘wait, what?’ 😳😆",
-        "A best friend knows your stories. A true friend helped you write them. ✍️📖",
-        "Friendship is born when one says, ‘You too? I thought I was the only one!’ 🤯❤️",
-        "Friends are the music to our life’s dance. 🎶💃",
-        "When you can’t look on the bright side, your friend sits with you in the dark. 🌚🪑",
-        "True friendship doesn’t need daily conversation — just loyalty and love. 📵💞",
-        "Friends are those who make your problems their problems. 🤝🧠",
-        "A real friend is one who walks in when the rest of the world walks out. 🚶‍♂️🚪",
-        "You bring the spark to my sarcasm and the calm to my chaos. 🔥😅",
-        "With you, even the boring days feel like adventures. 🗺️😊",
-        "My friend, you are the reason I smile a little more every day. 😊👯",
-        "The most valuable antique is an old friend. 🧓📦",
-        "True friends lift you higher — not bring you down. 🪁🙌",
-        "Our friendship is proof that crazy attracts crazy. 😜👯‍♀️",
-        "You know too much to ever leave. 😏🔐",
-        "Best friends make good times better and hard times easier. 💪❤️",
-        "If friendship was a currency, I’d be a billionaire with you. 💸👭",
-        "The bond we share is louder than words. 🔗🤐",
-        "A friend is someone who listens even when you don’t make sense. 👂😅",
-        "My favorite therapy is a chat with my best friend. 🛋️📱",
-        "Friendship is the comfort of knowing you’re never alone. 🌈🤗",
-        "Our friendship: part comedy, part therapy, all love. 🎭💖",
-        "Every inside joke started with a little chaos. 😆💬",
-        "True friends see the pain in your eyes even when you're smiling. 👀🙂",
-        "Thanks for being the reason I believe in loyalty. 🙏🤝",
-        "Best friends: born for the good times, built for the tough ones. 🏗️❤️",
-        "Friendship is the heartbeat of the soul. 🫀🎵",
-        "No friendship is an accident — we were meant to cross paths. 🛤️✨",
-      ],
+      General: {
+        paragraph:
+          "Friendship is one of life’s greatest treasures, offering support, joy, and a sense of belonging. True friends stand by us through thick and thin, celebrating our victories and comforting us in tough times. They bring laughter, understanding, and a special connection that enriches our journey. This collection of quotes reflects the beauty and strength of genuine friendship, reminding us to cherish those who walk beside us. 🤗💫❤️",
+        messages: [
+          "Friends are the family we choose for ourselves. 👨‍👩‍👧‍👦💖",
+          "A true friend sees the pain behind your smile. 😊💔",
+          "Good friends make the good times better and the hard times easier. 🎉🤝",
+          "Friendship isn’t about who you’ve known the longest, it’s about who walked into your life and never left. 🚶‍♂️❤️",
+          "With friends, even the smallest moments become unforgettable. ✨📸",
+          "A real friend listens without judgment and supports without limits. 👂🤗",
+          "Friends bring out the best in us and make us feel truly seen. 🌟👀",
+          "Laughter with friends is the best kind of medicine. 😂💊",
+          "True friendship is a shelter in life’s storms. ⛅🌧️",
+          "Friends are the stars that brighten even the darkest nights. ⭐🌙",
+          "Distance can’t break the bond of true friendship. 🌍❤️",
+          "Friendship is built on trust, kindness, and endless understanding. 🤝💞",
+          "A friend’s hug can heal what words cannot. 🤗💬",
+          "The best kind of friendships grow stronger with time and distance. ⏳🌱",
+          "True friends celebrate your successes and comfort you in failures. 🎉🙌",
+          "Friendship is the art of being there without being asked. 🖼️🤝",
+          "Friends make the journey of life worthwhile. 🚀💫",
+          "In the garden of life, friends are the most beautiful flowers. 🌸🌼",
+          "A friend is someone who knows your story and still loves you. 📖❤️",
+          "Friendship is the bridge that connects hearts across miles. 🌉💖",
+        ],
+      },
     },
   },
   {
     title: "🚀 Motivation",
     subcategories: {
-      General: [
-        "Push past your limits — that’s where growth begins. 🚀💪",
-        "Success starts with the courage to try. 🌟",
-        "Don’t wait for inspiration. Be your own spark. 🔥",
-        "You’re stronger than the excuses holding you back. 🛑➡️🏋️",
-        "One step at a time still gets you closer. 👣",
-        "The only bad day is the one you gave up. ❌📆",
-        "Discipline beats motivation every single day. 🕰️🎯",
-        "Every morning is a blank page. Write a good story. 📖🌅",
-        "Your future depends on what you do today. ⏳💡",
-        "Fall seven times, stand up eight. 🥊🧍",
-        "If it scares you, it might be worth doing. 😨➡️🎉",
-        "Big dreams need bold actions. 🎯🚶‍♂️",
-        "Don’t limit your challenges. Challenge your limits. 🧠🔥",
-        "Work in silence. Let success make the noise. 🤫📣",
-        "The grind will never betray you. 💼🧱",
-        "Impossible is just an opinion. 🧠🚫",
-        "Consistency is what transforms average into excellence. 🔁✨",
-        "Success is a series of small efforts, repeated daily. 📆🪜",
-        "Winners are not people who never fail — they are people who never quit. 🏆🙅‍♂️",
-        "Hard work beats talent when talent doesn’t work hard. 💪🧠",
-        "You’re one decision away from a totally different life. 🔄🔑",
-        "Your comfort zone is a beautiful place, but nothing ever grows there. 🌱🛋️",
-        "Focus on progress, not perfection. 🎯📈",
-        "Hustle until your haters ask if you’re hiring. 🧢💼",
-        "When you feel like quitting, remember why you started. 🛑🔁",
-        "It’s not about having time. It’s about making time. ⏰🛠️",
-        "Your mindset is your strongest muscle. Train it daily. 🧠🏋️‍♂️",
-        "The best view comes after the hardest climb. 🏞️🧗‍♂️",
-        "Success isn’t lucky — it’s earned. 💼🔥",
-        "You’ve got what it takes. But it’ll take everything you’ve got. 🎒⚡",
-        "Turn your can’ts into cans and your dreams into plans. ✅📌",
-        "Wake up. Kick butt. Repeat. 🔁💥",
-        "You are the author of your own comeback story. ✍️📘",
-        "Small actions every day lead to big changes. 🔄📊",
-        "The struggle is part of the story. 🥀➡️🌹",
-        "Discomfort is a sign of progress. 🌀➡️💪",
-        "Don’t stop until you’re proud. 😤🏁",
-        "Train like you’re the underdog. Win like you’re the champ. 🥇🐶",
-        "Make today so awesome, yesterday gets jealous. 😎🔥",
-        "The harder you work, the luckier you get. 🍀💼",
-        "Be the energy you want to attract. ⚡🌌",
-        "Stay focused. Stay fierce. Stay unstoppable. 🧘‍♂️🐅🚀",
-        "Worry less. Do more. Win big. 🧠✅🏆",
-        "Success is 1% inspiration, 99% perspiration. 💡💧",
-        "Believe in your hustle like it already worked. 🙌📈",
-        "Keep going. Your future self is already cheering you on. 📣👤",
-        "What you do today decides who you become tomorrow. ⏳👊",
-        "Let your ambition be louder than your fear. 📢🕷️",
-        "You didn’t come this far just to stop here. 🚧🚶",
-        "The best way out is always through. 🔁🏃‍♂️",
-      ],
+      General: {
+        paragraph:
+          "Motivation is the spark that ignites our passion and drives us toward our goals. It fuels perseverance, encourages growth, and helps us overcome obstacles. These quotes are here to inspire you to keep pushing forward, believe in yourself, and turn your dreams into reality. 💪🔥🚀",
+        messages: [
+          "Believe in yourself and all that you are. 🌟💫",
+          "Dream big, work hard, and never give up. 🌠🏋️‍♂️",
+          "Success starts with self-discipline and determination. 🎯🛠️",
+          "Every setback is a setup for a comeback. 🔄🔥",
+          "Push yourself because no one else is going to do it for you. 🚀💥",
+          "The harder you work, the luckier you get. 🍀💼",
+          "Small steps each day lead to big results. 🐾📈",
+          "Your only limit is your mind. 🧠⛓️",
+          "Don’t watch the clock; do what it does—keep going. ⏰🏃‍♀️",
+          "Success doesn’t come to you—you go to it. 🏆🛤️",
+          "Stay positive, work hard, make it happen. ✨🛠️🔥",
+          "Failure is not the opposite of success; it’s part of success. 🔄🏅",
+          "The difference between try and triumph is a little ‘umph’. 💥🏅",
+          "Wake up with determination; go to bed with satisfaction. 🌅😌",
+          "Motivation gets you started; habit keeps you going. 🔥⏳",
+          "Don’t limit your challenges; challenge your limits. 🚧🚀",
+          "Believe you can, and you’re halfway there. 🧗‍♂️🌄",
+          "Success is the sum of small efforts repeated daily. 📅💪",
+          "Your future is created by what you do today, not tomorrow. 📆🚀",
+          "Stay focused, stay humble, stay hungry. 🎯🙏🍽️",
+        ],
+      },
     },
   },
   {
     title: "😢 Sad & Emotional",
     subcategories: {
-      General: [
-        "Sometimes the silence is louder than words.",
-        "It’s okay to feel broken sometimes; it means you’re human.",
-        "Behind every smile, there’s a story of pain.",
-        "Tears are words the heart can’t express.",
-        "Feeling lost in a world that keeps moving on.",
-        "Some wounds don’t show, but they hurt the most.",
-        "Loneliness is a silent companion.",
-        "Pain makes you stronger, but it also makes you quiet.",
-        "It’s hard to forget someone who gave you so much to remember.",
-        "When you feel alone, remember the stars still shine for you.",
-        "Not every story has a happy ending.",
-        "Broken hearts still beat, but with more caution.",
-        "Sometimes love isn’t enough to keep us together.",
-        "The hardest part is learning to let go.",
-        "Sadness is the price we pay for loving deeply.",
-        "My heart is tired but keeps beating.",
-        "The darkest nights produce the brightest stars.",
-        "I smile to hide the pain I feel inside.",
-        "Grief is the silent echo of love lost.",
-        "Sometimes, the strongest people cry in silence.",
-        "Memories can hurt more than reality.",
-        "Falling apart doesn’t mean you’re weak.",
-        "Lost in thoughts, drowning in emotions.",
-        "Some scars are invisible, but they never fade.",
-        "It’s okay not to be okay.",
-        "The pain you feel today will be your strength tomorrow.",
-        "In the end, we all have to face our own battles alone.",
-        "Heartbreak teaches us the true meaning of strength.",
-        "I’m silently fighting a war you know nothing about.",
-        "When words fail, tears speak.",
-        "It hurts when someone you trust becomes a stranger.",
-        "The weight of sadness is heavy but invisible.",
-        "Sometimes the hardest goodbye is the one you never said.",
-        "Even the strongest storms eventually pass.",
-        "Pain is inevitable, suffering is optional.",
-        "Happiness feels so far when sadness takes over.",
-        "Letting go is the hardest thing to do.",
-        "The loneliest place is inside your own mind.",
-        "Sometimes, all you can do is breathe and keep going.",
-        "Emotions are messy, but they keep us real.",
-        "I’m broken, but still standing.",
-        "The heart remembers what the mind tries to forget.",
-        "Sadness is a visit, not a permanent resident.",
-        "Wounds heal, but memories stay.",
-        "It’s okay to cry and not be strong all the time.",
-        "Pain teaches us lessons we didn’t ask for.",
-        "Sometimes, healing is a quiet process.",
-        "The night feels colder when you’re alone.",
-        "In the silence, I find my strength.",
-      ],
+      General: {
+        paragraph:
+          "Sadness and emotional pain are part of the human experience, reminding us of our vulnerability and capacity to feel deeply. While these moments can be heavy, they also offer opportunities for self-reflection, healing, and growth. These quotes express the complexity of emotions we face and the strength it takes to move forward. 💔😢🌧️",
+        messages: [
+          "Sometimes the strongest hearts are the ones breaking. 💔😞",
+          "Tears are words the heart can’t express. 😢🖤",
+          "It’s okay to feel lost and hurt; healing takes time. ⏳💔",
+          "Pain is real, but so is hope beyond the darkness. 🌑✨",
+          "Some scars remind us how brave we’ve been. 🩹🖤",
+          "When words fail, emotions speak louder. 🗣️💧",
+          "Sadness is a silent storm inside the soul. 🌧️🌪️",
+          "Even broken hearts can learn to love again. 💔❤️‍🩹",
+          "Embrace the pain; it’s part of your story. 📖😔",
+          "In tears, we find release and renewal. 💧🌿",
+          "Sometimes the hardest battles are fought within. ⚔️🖤",
+          "Emotional wounds heal with time and kindness. ⏰💙",
+          "Grief is love’s echo that never fades. 🔄❤️",
+          "Sadness teaches us to appreciate joy’s light. 🌥️☀️",
+          "Behind every tear, there’s a lesson learned. 💧📚",
+          "It’s okay to not be okay sometimes. 🤷‍♂️💔",
+          "Pain shapes us into stronger versions of ourselves. 💪🖤",
+          "The depth of your sadness shows the depth of your love. 💔💖",
+          "Sometimes healing begins with simply letting go. 🕊️💙",
+          "Emotions connect us to our truest selves. 🧠❤️",
+        ],
+      },
     },
   },
   {
     title: "🔥 Attitude",
     subcategories: {
-      General: [
-        "I don’t follow the crowd; I make my own path.",
-        "Confidence is silent, insecurities are loud.",
-        "Not everyone likes me, but not everyone matters.",
-        "I’m not arrogant, I’m just aware of my worth.",
-        "My attitude depends on how you treat me.",
-        "I’m not here to please everyone, I’m here to be myself.",
-        "Strong minds discuss ideas, weak minds discuss people.",
-        "I’m too busy working on my own grass to notice if yours is greener.",
-        "Don’t mistake my kindness for weakness.",
-        "I’m not perfect, but I’m always real.",
-        "I don’t compete, I dominate.",
-        "Hustle until your haters ask if you’re hiring.",
-        "I’m the energy I want to attract.",
-        "Keep rolling your eyes, maybe you’ll find a brain back there.",
-        "Some call it attitude, I call it confidence.",
-        "I’m not cocky, I’m just better than you think.",
-        "I don’t have an attitude problem, I have a personality you can’t handle.",
-        "I’m not here to be average, I’m here to be awesome.",
-        "I don’t follow trends, I set them.",
-        "I’m on my own vibe, you’re on yours.",
-        "They told me I couldn’t, that’s why I did.",
-        "Stay humble, but let your attitude shine.",
-        "I’m not rude, I’m honest.",
-        "Life gave me lemons, I made a lemonade empire.",
-        "If you don’t like my attitude, quit talking to me.",
-        "I don’t need your approval to be me.",
-        "I’m not difficult, I’m just not easy to forget.",
-        "I’m the CEO of my own life.",
-        "Attitude is everything — pick a good one.",
-        "I’m unapologetically me.",
-        "Not everyone gets my vibe, and that’s okay.",
-        "I’m a limited edition; there’s no duplicate.",
-        "I’m not a backup plan, and definitely not your second choice.",
-        "Stay classy, but be savage when needed.",
-        "I don’t do drama, I do karma.",
-        "Your opinion of me doesn’t define me.",
-        "I’m too original to be copied.",
-        "I’m the storm they didn’t see coming.",
-        "I’m my own competition.",
-        "I’m the author of my own story.",
-        "I’m not a player, I’m the game changer.",
-        "My attitude speaks louder than words.",
-        "I’m not here to fit in, I’m here to stand out.",
-        "I don’t chase, I attract.",
-        "If you want to fly, you have to give up what weighs you down.",
-        "I’m built from mistakes and lessons learned.",
-        "I’m the vibe you wish you had.",
-        "I don’t quit; I reset.",
-        "I’m the energy you can’t ignore.",
-        "Confidence level: Self-made.",
-        "I’m not arrogant, I’m just confident.",
-        "Keep my name out of your mouth unless you’re ready to be a fan.",
-      ],
+      General: {
+        paragraph:
+          "Attitude shapes how we face life’s challenges and opportunities. A positive, confident mindset empowers us to overcome obstacles, stay focused, and stand out with style. These quotes celebrate boldness, self-respect, and the power of owning your unique attitude. 😎🔥💯",
+        messages: [
+          "My attitude is my best accessory — I wear it everywhere. 😎✨",
+          "Confidence isn’t arrogant; it’s knowing your worth. 💪🌟",
+          "I don’t follow the crowd; I lead my own path. 🚀🛤️",
+          "Stay humble, but let your attitude shine bright. 🌟🙏",
+          "Attitude is everything — choose yours wisely. 🎯🔥",
+          "Success starts with a winning mindset. 🏆🧠",
+          "I’m not here to please everyone, just myself. 😌✌️",
+          "Strong attitude, stronger results. 💥💪",
+          "Keep your head high and your attitude higher. 🚀👑",
+          "I don’t compete; I dominate. 🥇🔥",
+          "Attitude reflects personality — mine speaks loud and clear. 📢😎",
+          "Positive vibes only, no room for negativity. 🌈🚫",
+          "A great attitude can turn setbacks into comebacks. 🔄🔥",
+          "I’m the author of my own story and the hero too. 📖🦸‍♂️",
+          "Be bold, be brave, be unapologetically you. 💥🦋",
+          "Your attitude determines your altitude. ✈️🌟",
+          "Confidence is silent; insecurities are loud. 🤫🔊",
+          "I’m not lucky, I’m talented with the right attitude. 🍀💼",
+          "Keep your attitude positive and your goals clear. 🎯💡",
+          "Attitude is a little thing that makes a big difference. ⚡🌟",
+        ],
+      },
     },
   },
 ];

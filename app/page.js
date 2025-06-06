@@ -29,6 +29,8 @@ export default function Home() {
           alt="bubble"
           width={100}
           height={100}
+          priority
+          quality={10}
           className="absolute top-[15%] right-[18%] w-[60px] sm:w-[90px] md:w-[100px] rounded-full z-0"
         />
         <Image
@@ -36,6 +38,8 @@ export default function Home() {
           alt="bubble"
           width={90}
           height={90}
+          priority
+          quality={30}
           className="absolute bottom-[40%] left-[18%] w-[55px] sm:w-[70px] md:w-[90px] rounded-full z-0"
         />
         <Image
@@ -43,6 +47,8 @@ export default function Home() {
           alt="bubble"
           width={220}
           height={220}
+          priority
+          quality={30}
           className="absolute top-[60%] right-[5%] w-[100px] sm:w-[160px] md:w-[220px] rounded-full z-0"
         />
         <Image
@@ -50,6 +56,8 @@ export default function Home() {
           alt="bubble"
           width={130}
           height={130}
+          priority
+          quality={30}
           className="absolute bottom-[12%] right-[28%] w-[80px] sm:w-[100px] md:w-[130px] rounded-full z-0"
         />
         <Image
@@ -57,6 +65,8 @@ export default function Home() {
           alt="bubble"
           width={80}
           height={80}
+          priority
+          quality={30}
           className="absolute top-[18%] left-[12%] w-[50px] sm:w-[60px] md:w-[80px] rounded-full z-0"
         />
         <Image
@@ -64,6 +74,8 @@ export default function Home() {
           alt="bubble"
           width={200}
           height={200}
+          priority
+          quality={30}
           className="absolute top-[70%] left-[10%] w-[100px] sm:w-[150px] md:w-[200px] rounded-full z-0"
         />
       </section>
@@ -78,6 +90,7 @@ export default function Home() {
             src={"/about.png"}
             width={247}
             height={24}
+            quality={40}
             alt="about"
           />
           <p className=" m-auto md:ms-0 w-[100%] sm:w-[80%] text-[20px] leading-[30px] font-normal text-[#323743]">
@@ -127,15 +140,15 @@ export default function Home() {
 
           {/* White Box */}
           <div className="absolute pt-7 w-[150px] top-[5%] left-[2%] sm:top-[25%] sm:left-[-20%] sm:w-[200px] h-[auto] bg-white z-20 rounded-2xl shadow-xl p-2">
-            <h3 className="text-lg font-bold text-[#CA33FF]">Features</h3>
+            <h3 className="text-lg font-bold text-purple-700 ">Features</h3>
             <ul className="text-sm text-gray-700 space-y-2 list-none pl-0">
-              <li className="bg-pink-200 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
+              <li className="bg-pink-100 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
                 ⚡ Instant Captions & Statuses
               </li>
-              <li className="bg-pink-200 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
+              <li className="bg-pink-100 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
                 🎨 AI-Powered Creativity Tools
               </li>
-              <li className="bg-pink-200 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
+              <li className="bg-pink-100 rounded-2xl px-2 py-1 sm:px-4 sm:py-2 font-bold text-pink-700 text-[11px] sm:text-[16px]">
                 🆓 100% Free & <br />
                 Effortless
               </li>
@@ -144,41 +157,6 @@ export default function Home() {
         </div>
       </main>
 
-      {/* <section className="w-5/6 h-[600px]  m-auto grid md:grid-cols-3 gap-5">
-        <div className=" bg-[#FFF7F1] rounded-2xl relative w-[100%] h-[300px] m-auto col-span-*">
-          <div className="px-8 pt-11 ">
-            <h2 className="text-[24px] font-bold text-gray-900">
-              🧠 AI-Powered Creativity
-            </h2>
-            <p className="text-[20px] text-gray-700">
-              Unlock smarter ways to create with our AI-driven tools. Whether
-              you&apos;re looking for the perfect caption, bio, or status, our
-              intelligent algorithms deliver fresh and relevant content that
-              matches your style — instantly and effortlessly.
-            </p>
-          </div>
-          <Image
-            className="absolute right-[2%] bottom-[4%]"
-            width={150}
-            height={150}
-            src={"/feature-ai.png"}
-            alt="ai"
-          />
-        </div>
-        <article className="bg-[#FFCED6FF] rounded-2xl col-span-2">
-          <h2 className="text-[24px] font-bold text-gray-900">
-            ⚡ One-Click Copy & Share
-          </h2>
-          <p>
-            Speed matters. With our seamless one-click copy and share feature,
-            you can quickly grab your generated text and push it to social
-            media, messages, or wherever you need it — saving you time and
-            effort every time.
-          </p>
-        </article>
-        <article className="bg-[#D2D1F0FF] col-span-2 rounded-2xl">3</article>
-        <article className="bg-[#FFFAE4FF] rounded-2xl">4</article>
-      </section> */}
       <section className="w-5/6 h-auto mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 auto-rows-fr">
         {/* Box 1 */}
         <div className="bg-[#FFF7F1] rounded-2xl relative w-full h-auto p-5 md:p-6 flex flex-col justify-between min-h-[300px]">

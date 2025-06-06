@@ -2,9 +2,10 @@
 import { Fuzzy_Bubbles } from "next/font/google";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaSun, FaMoon, FaHamburger, FaCross } from "react-icons/fa";
 import { GiCrossMark } from "react-icons/gi";
+import ContentHubDropdown from "./ContentHubDropdown";
 const fuzzy = Fuzzy_Bubbles({
   subsets: ["latin"],
   weight: ["400"],
@@ -14,9 +15,11 @@ const Header = () => {
   const pathName = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isToggled, setIsToggled] = useState(false);
+
   const handleToggle = () => {
     setIsToggled(!isToggled);
   };
+
   return (
     <nav className=" w-full z-[999] flex items-center justify-between  h-20 fixed top-4  bg-white/40 rounded-2xl sm:rounded-full shadow-lg backdrop-blur-md border border-white/30 px-7 sm:w-11/12  sm:mx-auto sm:right-0 sm:left-0">
       <Link
@@ -33,6 +36,7 @@ const Header = () => {
         <li>
           <Link
             href="/"
+            onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/"
                 ? "bg-[#e397ff] font-semibold text-white"
@@ -45,6 +49,7 @@ const Header = () => {
         <li>
           <Link
             href={"/tools"}
+            onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/tools"
                 ? "bg-[#dd80ff] font-semibold text-white"
@@ -54,9 +59,13 @@ const Header = () => {
             Tools
           </Link>
         </li>
+
+        <ContentHubDropdown />
+
         <li>
           <Link
             href={"/privacy-policy"}
+            onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/privacy-policy"
                 ? "bg-[#dd80ff] font-semibold text-white"
@@ -69,6 +78,7 @@ const Header = () => {
         <li>
           <Link
             href={"/about"}
+            onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/about"
                 ? "bg-[#dd80ff] font-semibold text-white"
@@ -81,6 +91,7 @@ const Header = () => {
         <li>
           <Link
             href={"/contact"}
+            onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/contact"
                 ? "bg-[#dd80ff] font-semibold text-white"
@@ -92,7 +103,7 @@ const Header = () => {
         </li>
       </ul>
       <button
-        className={`hidden px-5 py-2 text-black-300 rounded-full bg-amber-300  text-white sm:block ${
+        className={`hidden px-5 py-2 text-black-300 rounded-full bg-amber-300  text-white sm:hidden${
           isToggled ? "dark:bg-gray-800 dark:text-white" : ""
         }`}
         onClick={handleToggle}
@@ -102,6 +113,7 @@ const Header = () => {
       <button
         className="flex md:hidden"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
+        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
       >
         {isMenuOpen ? (
           <GiCrossMark style={{ color: "#CA33FF" }} />
