@@ -5,6 +5,7 @@ import Header from "./_component/Header";
 import { Fuzzy_Bubbles } from "next/font/google";
 import Footer from "./_component/Footer";
 import { Toaster } from "react-hot-toast";
+import ScrollToTopButton from "./_component/ScroolToTopBtn";
 
 export const metadata = {
   title: {
@@ -80,6 +81,7 @@ export default function RootLayout({ children }) {
         />
         {children}
         <Footer />
+        <ScrollToTopButton />
       </body>
     </html>
   );

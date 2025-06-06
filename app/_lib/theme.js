@@ -75,7 +75,7 @@ const themes = {
     icon: "😂",
   },
   savage: {
-    gradient: "bg-gradient-to-br from-red-400 via-red-600 to-red-800",
+    gradient: "bg-gradient-to-br from-[#ffe3e3] via-[#ffbaba] to-[#ff9a9a]",
     headingColor: "text-red-900",
     icon: "🔥",
   },
