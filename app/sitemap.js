@@ -1,4 +1,17 @@
+import { contentData } from "./_lib/contentData";
+
+async function getAllContentSlugs() {
+  return Object.keys(contentData);
+}
 export default async function sitemap() {
+  const dynamicSlugs = await getAllContentSlugs();
+
+  const dynamicUrls = dynamicSlugs.map((slug) => ({
+    url: `${process.env.NEXT_PUBLIC_BASE_URL}content/${slug}`,
+    lastModified: new Date().toISOString().split("T")[0],
+    priority: 0.8,
+    changeFrequency: "weekly",
+  }));
   return [
     {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
@@ -49,5 +62,6 @@ export default async function sitemap() {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}tools/youtube`,
       lastModified: "2025-5-6",
     },
+    ...dynamicUrls,
   ];
 }
