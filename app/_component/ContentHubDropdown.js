@@ -88,7 +88,7 @@ const ContentHubDropdown = () => {
           setIsOpen(!isOpen);
           setOpenSubmenu(null);
         }}
-        className="px-4 py-1 sm:px-3 sm:py-1 rounded-full text-gray-600 hover:text-white hover:bg-[#dd80ff] font-semibold flex items-center justify-between w-full md:w-auto"
+        className="px-4 py-1 sm:px-3 sm:py-1 rounded-full text-gray-600 hover:text-white hover:bg-purple-800  font-semibold flex items-center justify-between w-full md:w-auto"
         aria-expanded={isOpen}
         aria-haspopup="true"
       >

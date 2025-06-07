@@ -175,6 +175,7 @@ export default function Home() {
             className="absolute opacity-50 right-4 bottom-4 "
             width={120}
             height={120}
+            placeholder="blur"
             src="/feature-ai.png"
             alt="ai"
           />

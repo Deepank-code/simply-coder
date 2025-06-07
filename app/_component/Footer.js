@@ -31,9 +31,9 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <nav aria-label="Quick Links">
-            <h3 className="font-bold text-lg text-gray-900 mb-3">
+            <h2 className="font-bold text-lg text-gray-900 mb-3">
               Quick Links
-            </h3>
+            </h2>
             <ul className="space-y-2 text-sm text-gray-700">
               <li>
                 <Link
@@ -74,7 +74,7 @@ const Footer = () => {
         {/* Our Tools */}
         <div>
           <nav aria-label="Our Tools">
-            <h3 className="font-bold text-lg text-gray-900 mb-3">Our Tools</h3>
+            <h2 className="font-bold text-lg text-gray-900 mb-3">Our Tools</h2>
             <ul className="space-y-2 text-sm text-gray-700">
               <li>
                 <Link

@@ -30,8 +30,8 @@ const themes = {
     icon: "🌞",
   },
   goodNight: {
-    gradient: "bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364]",
-    headingColor: "text-indigo-200",
+    gradient: "bg-gradient-to-br from-[#5a7a8a] via-[#8ba1aa] to-[#b0c0c8]",
+    headingColor: "text-gray-700",
     icon: "🌙",
   },
   missing: {

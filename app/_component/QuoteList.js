@@ -156,6 +156,7 @@ export default function QuoteList({ themeKey = "default", content }) {
                 onClick={() => handleShare(item)}
                 className="text-blue-600 font-semibold hover:underline flex items-center gap-1"
                 title="Share this content"
+                aria-label="share button"
               >
                 <Share2 size={16} />
               </button>
@@ -165,6 +166,7 @@ export default function QuoteList({ themeKey = "default", content }) {
                 onClick={() => handleCopy(item, index)}
                 className="text-rose-600 font-semibold hover:underline flex items-center gap-1"
                 title="Copy to clipboard"
+                aria-label="copy button"
               >
                 {copiedIndex === index ? (
                   "Copied!"

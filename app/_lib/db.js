@@ -1289,3 +1289,98 @@ export const whatsAppCategories = [
     },
   },
 ];
+
+export const globalWhatsappTips = {
+  title: "Master Your WhatsApp Status: Quick Tips & Hidden Features!",
+  intro:
+    "Ready to make your WhatsApp statuses truly pop? This guide will show you how to easily share your favorite quotes and discover powerful features you might be missing!",
+  points: [
+    {
+      text: "<strong>How to Find Your Status Tab:</strong>  Simply tap the 'Status' tab in WhatsApp (or swipe right from your chats screen). This is your personal broadcasting space where your updates live for 24 hours.",
+      imageUrl: "/status.gif",
+      imageAlt: "Screenshot showing the 'Status' tab in WhatsApp",
+    },
+    {
+      text: "<strong>Set Your Status Privacy:</strong>  Before posting, control who sees your updates! Tap the three dots next to 'My status' to open 'Status privacy'. Here, you can choose 'My contacts', 'My contacts except...', or 'Only share with...' specific friends for sensitive updates.",
+      imageUrl: "/privacy-wa.gif",
+      imageAlt: "Screenshot of WhatsApp status privacy options",
+    },
+    {
+      text: "<strong>Add Photos, Videos & GIFs:</strong>  Don't just stick to text! To make your quote statuses visually stunning, tap the camera icon in the status tab or the photo/video icon when creating a text status. Select photos, short videos, or GIFs to accompany your words and elevate the mood.",
+      imageUrl: "/media-wa.gif",
+      imageAlt:
+        "Screenshot of WhatsApp status editor with media attachment options",
+    },
+    {
+      text: "<strong>Leverage Rich Link Previews:</strong>  Sharing a link? WhatsApp automatically generates a rich preview for URLs in both chats and statuses. Just paste your link, and a visual card with a title and description will appear, making your shared content much more engaging.",
+      imageUrl: "/link-wa.gif",
+      imageAlt:
+        "Screenshot of a WhatsApp chat showing a link with a rich preview",
+    },
+    {
+      text: "<strong>Discover WhatsApp Channels:</strong>  Want to stay updated from your favorite brands, news sources, or creators? Look for the 'Updates' tab (previously 'Status' tab in some versions) and then scroll to 'Channels'. You can follow public groups for direct, one-way broadcasts, separate from your personal chats.",
+      imageUrl: "/channel-wa.gif",
+      imageAlt: "Screenshot showing the 'Channels' tab in WhatsApp",
+    },
+    {
+      text: "<strong>Edit Sent Messages (A New Feature!):</strong>  Made a typo in a chat message? WhatsApp now allows you to edit sent messages within 15 minutes. Simply long-press the message, tap the three dots, and select 'Edit'. (While this is for chats, it's a game-changer for overall WhatsApp usability!).",
+      imageUrl: "/edit-wa.gif",
+      imageAlt: "Screenshot showing WhatsApp's edit message option",
+    },
+    {
+      text: "<strong>Quick Reactions with Emojis:</strong>  Respond to messages in chats instantly with emoji reactions. Long-press any message, and a row of emojis will pop up. Choose the one that best expresses your feeling for a quick, non-verbal reply.",
+      imageUrl: "/reaction-wa.gif",
+      imageAlt: "Screenshot of WhatsApp chat with emoji reactions",
+    },
+    {
+      text: "<strong>Send High-Quality Media:</strong>  Tired of blurry photos? When sending media in chats, WhatsApp now gives you an 'HD' option. Tap the HD icon after selecting your photo/video to send it in higher quality, ensuring your shared visuals look sharp.",
+      imageUrl: "/hd-wa.gif",
+      imageAlt:
+        "Screenshot showing the HD quality option for sending media in WhatsApp",
+    },
+  ],
+  callToAction:
+    "Ready to transform your WhatsApp status game? Start using these tips today and make every update count!",
+};
+// data/globalInstaBioTips.js
+
+export const globalInstaBioTips = {
+  title: "Master Your Instagram Bio: Quick Tricks & Tips!",
+  intro:
+    "Your Instagram bio is real Gem! It's the first thing visitors see on your profile. Learn how to craft a compelling, concise, and captivating bio that tells your story, attracts followers, and drives engagement. Whether you're a creator, a business, or just want to make a lasting impression, these tips are for you.",
+  points: [
+    {
+      text: "<strong>1. The Power of Keywords:</strong> Use relevant keywords that describe you or your niche. Think about what people might search for to find profiles like yours. Example: 'Travel Photographer', 'Sustainable Fashion Blogger', 'Digital Artist'.",
+      imageUrl: "/images/insta-bio-tips/keywords-bio.webp", // Example path
+      imageAlt: "Screenshot showing keywords in an Instagram bio",
+    },
+    {
+      text: "<strong>2. Craft a Compelling First Line:</strong>  Your first line is crucial. Make it catchy and tell people immediately what you're about. Use emojis to save space and add personality. Example: 'Wanderlust & Coffee ☕ | Storyteller 📚 | Nature Lover 🌲'.",
+      imageUrl: "/images/insta-bio-tips/first-line-bio.webp",
+      imageAlt:
+        "Screenshot showing a compelling first line in an Instagram bio",
+    },
+    {
+      text: "<strong>3. Utilize the 'Link in Bio' Strategically:</strong>  This is your only clickable link on your main profile. Use a Linktree or similar service if you have multiple links, or directly link to your latest blog post, product, or portfolio. Always direct users to it!",
+      imageUrl: "/images/insta-bio-tips/link-in-bio.webp",
+      imageAlt: "Screenshot of Instagram profile with a 'link in bio'",
+    },
+    {
+      text: "<strong>4. Add a Clear Call-to-Action (CTA):</strong>  Tell visitors what you want them to do. 'Shop my looks', 'Read my latest blog', 'Subscribe to my newsletter', 'DM for collabs'. Make it easy for them to engage.",
+      imageUrl: "/images/insta-bio-tips/cta-bio.webp",
+      imageAlt: "Screenshot showing a call-to-action in an Instagram bio",
+    },
+    {
+      text: "<strong>5. Break Up Text with Emojis and Line Breaks:</strong>  Large blocks of text are hard to read. Use emojis (🎨✨✈️) and line breaks to make your bio visually appealing and easy to scan. This also conveys personality.",
+      imageUrl: "/images/insta-bio-tips/emojis-linebreaks-bio.webp",
+      imageAlt: "Screenshot of an Instagram bio using emojis and line breaks",
+    },
+    {
+      text: "<strong>6. Update Regularly:</strong>  Your bio should reflect your current focus, projects, or promotions. Don't let it get stale! A fresh bio keeps your profile dynamic and relevant.",
+      imageUrl: "/images/insta-bio-tips/update-bio.webp",
+      imageAlt: "Illustration of updating an Instagram bio",
+    },
+  ],
+  callToAction:
+    "Ready to transform your Instagram profile? Start with your bio today!",
+};

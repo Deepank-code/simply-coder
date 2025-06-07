@@ -105,6 +105,7 @@ export default function TestimonialSlider() {
             <button
               onClick={prevSlide}
               className="bg-white p-2 rounded-full shadow hover:bg-gray-100"
+              aria-label="previous testimonial"
             >
               <ChevronLeft className="w-6 h-6 text-gray-600" />
             </button>
@@ -114,6 +115,7 @@ export default function TestimonialSlider() {
             <button
               onClick={nextSlide}
               className="bg-white p-2 rounded-full shadow hover:bg-gray-100"
+              aria-label="previous testimonial"
             >
               <ChevronRight className="w-6 h-6 text-gray-600" />
             </button>

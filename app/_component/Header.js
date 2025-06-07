@@ -39,7 +39,7 @@ const Header = () => {
             onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/"
-                ? "bg-[#e397ff] font-semibold text-white"
+                ? "bg-purple-800 font-semibold text-white"
                 : "text-gray-500"
             }`}
           >
@@ -52,7 +52,7 @@ const Header = () => {
             onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/tools"
-                ? "bg-[#dd80ff] font-semibold text-white"
+                ? "bg-purple-800  font-semibold text-white"
                 : "text-gray-500"
             }`}
           >
@@ -68,7 +68,7 @@ const Header = () => {
             onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/privacy-policy"
-                ? "bg-[#dd80ff] font-semibold text-white"
+                ? "bg-purple-800  font-semibold text-white"
                 : "text-gray-500"
             }`}
           >
@@ -81,7 +81,7 @@ const Header = () => {
             onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/about"
-                ? "bg-[#dd80ff] font-semibold text-white"
+                ? "bg-purple-800  font-semibold text-white"
                 : "text-gray-500"
             }`}
           >
@@ -94,7 +94,7 @@ const Header = () => {
             onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
               pathName === "/contact"
-                ? "bg-[#dd80ff] font-semibold text-white"
+                ? "bg-purple-800  font-semibold text-white"
                 : "text-gray-500"
             }`}
           >

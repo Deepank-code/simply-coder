@@ -2,6 +2,7 @@
 
 import { ClipboardCopy } from "lucide-react";
 import { useState } from "react";
+import { globalInstaBioTips } from "../_lib/db";
 
 const InstaCategoriesCard = ({ categories }) => {
   const [copiedIndex, setCopiedIndex] = useState(null);
@@ -109,6 +110,47 @@ const InstaCategoriesCard = ({ categories }) => {
           </div>
         );
       })}
+      <div className="mt-20 p-8 bg-rose-50 rounded-lg shadow-xl border-l-4 border-rose-400">
+        <h2 className="text-3xl font-bold text-rose-800 mb-6 text-center">
+          {globalInstaBioTips.title}
+        </h2>
+        <p className="text-gray-700 text-lg mb-8 text-center">
+          {globalInstaBioTips.intro}
+        </p>
+        <ul className="list-none p-0 m-0 space-y-10">
+          {globalInstaBioTips.points.map((point, index) => (
+            <li
+              key={index}
+              className="flex flex-col md:flex-row items-center md:items-start gap-5 p-5 bg-white rounded-lg shadow-md border border-gray-100"
+            >
+              <div className="flex-shrink-0 text-4xl font-bold text-rose-600 md:mr-5">
+                {index + 1}.
+              </div>
+              <div className="flex-grow">
+                <p
+                  className="text-gray-800 text-base mb-3"
+                  dangerouslySetInnerHTML={{ __html: point.text }}
+                />
+                {/* {point.imageUrl && (
+                  <div className="mt-3 text-center md:text-left">
+                    <img
+                      src={point.imageUrl}
+                      alt={point.imageAlt}
+                      className="max-w-full h-auto rounded-lg shadow-md border border-gray-200 inline-block"
+                      style={{ maxWidth: "400px" }} // Slightly larger image for bio tips
+                    />
+                  </div>
+                )} */}
+              </div>
+            </li>
+          ))}
+        </ul>
+        {globalInstaBioTips.callToAction && (
+          <p className="text-rose-600 text-lg mt-8 font-semibold text-center">
+            {globalInstaBioTips.callToAction}
+          </p>
+        )}
+      </div>
     </div>
   );
 };
