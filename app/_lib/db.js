@@ -1296,44 +1296,44 @@ export const globalWhatsappTips = {
     "Ready to make your WhatsApp statuses truly pop? This guide will show you how to easily share your favorite quotes and discover powerful features you might be missing!",
   points: [
     {
-      text: "<strong>How to Find Your Status Tab:</strong>  Simply tap the 'Status' tab in WhatsApp (or swipe right from your chats screen). This is your personal broadcasting space where your updates live for 24 hours.",
-      imageUrl: "/status.gif",
+      text: "How to Find Your Status Tab: Simply tap the 'Status' tab in WhatsApp (or swipe right from your chats screen). This is your personal broadcasting space where your updates live for 24 hours.",
+      imageUrl: "/status-wa.gif",
       imageAlt: "Screenshot showing the 'Status' tab in WhatsApp",
     },
     {
-      text: "<strong>Set Your Status Privacy:</strong>  Before posting, control who sees your updates! Tap the three dots next to 'My status' to open 'Status privacy'. Here, you can choose 'My contacts', 'My contacts except...', or 'Only share with...' specific friends for sensitive updates.",
+      text: "Set Your Status Privacy:  Before posting, control who sees your updates! Tap the three dots next to 'My status' to open 'Status privacy'. Here, you can choose 'My contacts', 'My contacts except...', or 'Only share with...' specific friends for sensitive updates.",
       imageUrl: "/privacy-wa.gif",
       imageAlt: "Screenshot of WhatsApp status privacy options",
     },
     {
-      text: "<strong>Add Photos, Videos & GIFs:</strong>  Don't just stick to text! To make your quote statuses visually stunning, tap the camera icon in the status tab or the photo/video icon when creating a text status. Select photos, short videos, or GIFs to accompany your words and elevate the mood.",
+      text: "Add Photos, Videos & GIFs: Don't just stick to text! To make your quote statuses visually stunning, tap the camera icon in the status tab or the photo/video icon when creating a text status. Select photos, short videos, or GIFs to accompany your words and elevate the mood.",
       imageUrl: "/media-wa.gif",
       imageAlt:
         "Screenshot of WhatsApp status editor with media attachment options",
     },
     {
-      text: "<strong>Leverage Rich Link Previews:</strong>  Sharing a link? WhatsApp automatically generates a rich preview for URLs in both chats and statuses. Just paste your link, and a visual card with a title and description will appear, making your shared content much more engaging.",
+      text: "Leverage Rich Link Previews:  Sharing a link? WhatsApp automatically generates a rich preview for URLs in both chats and statuses. Just paste your link, and a visual card with a title and description will appear, making your shared content much more engaging.",
       imageUrl: "/link-wa.gif",
       imageAlt:
         "Screenshot of a WhatsApp chat showing a link with a rich preview",
     },
     {
-      text: "<strong>Discover WhatsApp Channels:</strong>  Want to stay updated from your favorite brands, news sources, or creators? Look for the 'Updates' tab (previously 'Status' tab in some versions) and then scroll to 'Channels'. You can follow public groups for direct, one-way broadcasts, separate from your personal chats.",
+      text: "Discover WhatsApp Channels: Want to stay updated from your favorite brands, news sources, or creators? Look for the 'Updates' tab (previously 'Status' tab in some versions) and then scroll to 'Channels'. You can follow public groups for direct, one-way broadcasts, separate from your personal chats.",
       imageUrl: "/channel-wa.gif",
       imageAlt: "Screenshot showing the 'Channels' tab in WhatsApp",
     },
     {
-      text: "<strong>Edit Sent Messages (A New Feature!):</strong>  Made a typo in a chat message? WhatsApp now allows you to edit sent messages within 15 minutes. Simply long-press the message, tap the three dots, and select 'Edit'. (While this is for chats, it's a game-changer for overall WhatsApp usability!).",
+      text: "Edit Sent Messages (A New Feature!):  Made a typo in a chat message? WhatsApp now allows you to edit sent messages within 15 minutes. Simply long-press the message, tap the three dots, and select 'Edit'. (While this is for chats, it's a game-changer for overall WhatsApp usability!).",
       imageUrl: "/edit-wa.gif",
       imageAlt: "Screenshot showing WhatsApp's edit message option",
     },
     {
-      text: "<strong>Quick Reactions with Emojis:</strong>  Respond to messages in chats instantly with emoji reactions. Long-press any message, and a row of emojis will pop up. Choose the one that best expresses your feeling for a quick, non-verbal reply.",
+      text: "Quick Reactions with Emojis:  Respond to messages in chats instantly with emoji reactions. Long-press any message, and a row of emojis will pop up. Choose the one that best expresses your feeling for a quick, non-verbal reply.",
       imageUrl: "/reaction-wa.gif",
       imageAlt: "Screenshot of WhatsApp chat with emoji reactions",
     },
     {
-      text: "<strong>Send High-Quality Media:</strong>  Tired of blurry photos? When sending media in chats, WhatsApp now gives you an 'HD' option. Tap the HD icon after selecting your photo/video to send it in higher quality, ensuring your shared visuals look sharp.",
+      text: "Send High-Quality Media: Tired of blurry photos? When sending media in chats, WhatsApp now gives you an 'HD' option. Tap the HD icon after selecting your photo/video to send it in higher quality, ensuring your shared visuals look sharp.",
       imageUrl: "/hd-wa.gif",
       imageAlt:
         "Screenshot showing the HD quality option for sending media in WhatsApp",
