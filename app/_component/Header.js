@@ -35,19 +35,6 @@ const Header = () => {
       >
         <li>
           <Link
-            href="/"
-            onClick={() => setIsMenuOpen(false)}
-            className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
-              pathName === "/"
-                ? "bg-purple-800 font-semibold text-white"
-                : "text-gray-500"
-            }`}
-          >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
             href={"/tools"}
             onClick={() => setIsMenuOpen(false)}
             className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
@@ -61,7 +48,19 @@ const Header = () => {
         </li>
 
         <ContentHubDropdown />
-
+        <li>
+          <Link
+            href="/blog"
+            onClick={() => setIsMenuOpen(false)}
+            className={`px-4 py-1 sm:px-3 sm:py-1 rounded-full ${
+              pathName === "/blog"
+                ? "bg-purple-800 font-semibold text-white"
+                : "text-gray-500"
+            }`}
+          >
+            Blogs
+          </Link>
+        </li>
         <li>
           <Link
             href={"/privacy-policy"}
