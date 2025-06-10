@@ -7,7 +7,7 @@ export default function BlogPost({ params }) {
   if (!post) return notFound();
 
   return (
-    <div className="max-w-3xl mx-auto pt-32">
+    <div className="max-w-3xl mx-auto pt-32 px-6">
       {/* <h1 className="text-3xl font-bold">{post.metadata.title}</h1> */}
       <p className="text-sm text-gray-500">{post.metadata.date}</p>
 

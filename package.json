@@ -11,6 +11,7 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "axios": "^1.9.0",
+    "date-fns": "^4.1.0",
     "framer-motion": "^12.10.5",
     "googleapis": "^149.0.0",
     "gray-matter": "^4.0.3",
