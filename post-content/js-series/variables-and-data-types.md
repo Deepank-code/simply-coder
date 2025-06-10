@@ -19,7 +19,7 @@ category: "coding"
 series: "javascript-basics-advanced"
 seriesOrder: 1
 slug: "js-variables-data-types"
-image: "/images/blog/js-variables.webp"
+image: "/blog/js.png"
 ---
 
 # 🧠 JavaScript Variables & Data Types: The Building Blocks of Code
