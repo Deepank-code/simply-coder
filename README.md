@@ -1,6 +1,5 @@
 # Simply Coder - Social Media Content Generator
 
-![Simply Coder Banner](https://www.simplycoder.info/og-banner.png) <!-- Replace with your actual OG banner if available -->
 
 **Simply Coder** is a Next.js-based application that helps users generate **engaging WhatsApp statuses, Instagram captions, LinkedIn posts, and other social media content** using **LLaMA 8.38 Instruct via OpenRouter API**.
 
@@ -28,12 +27,9 @@ Built to save your time and boost your online presence, Simply Coder allows you 
 - **State Management:** React Hooks
 - **Utilities:** Framer Motion (optional animations)
 
----
 
-## 📸 Screenshots
 
-![Screenshot 1](https://www.simplycoder.info/screenshot1.png)
-![Screenshot 2](https://www.simplycoder.info/screenshot2.png)
+
 
 ---
 
