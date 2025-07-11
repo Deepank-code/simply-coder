@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simply Coder - Social Media Content Generator
 
-## Getting Started
 
-First, run the development server:
+**Simply Coder** is a Next.js-based application that helps users generate **engaging WhatsApp statuses, Instagram captions, LinkedIn posts, and other social media content** using **LLaMA 8.38 Instruct via OpenRouter API**.
+
+Built to save your time and boost your online presence, Simply Coder allows you to generate, copy, and post high-quality content seamlessly.
+
+
+ Live website: [simplycoder.info](https://www.simplycoder.info/)
+---
+
+## 🚀 Features
+
+✅ Generate **WhatsApp statuses, captions, and one-liners** instantly  
+✅ Uses **LLaMA 8.38 Instruct via OpenRouter API** for human-like, engaging outputs  
+✅ **Next.js + Tailwind CSS** for fast, responsive UI  
+✅ Serverless architecture deployed on **Vercel**  
+✅ Simple, clean interface focused on user experience  
+✅ SEO-friendly, AdSense-ready structure  
+✅ Categories, search, and copy-to-clipboard functionalities
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, Tailwind CSS, TypeScript
+- **Backend:** OpenRouter API (LLaMA 8.38 Instruct)
+- **Deployment:** Vercel
+- **State Management:** React Hooks
+- **Utilities:** Framer Motion (optional animations)
+
+
+
+
+
+---
+
+## ✨ Getting Started
+
+### 1️⃣ Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/yourusername/simply-coder.git
+cd simply-coder
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
