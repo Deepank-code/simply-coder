@@ -48,7 +48,7 @@ const Header = () => {
         </li>
 
         <ContentHubDropdown />
-        <li>
+        {/* <li>
           <Link
             href="/blog"
             onClick={() => setIsMenuOpen(false)}
@@ -60,7 +60,7 @@ const Header = () => {
           >
             Blogs
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             href={"/privacy-policy"}
